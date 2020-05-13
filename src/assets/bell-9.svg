@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20.844" height="25.012" viewBox="0 0 20.844 25.012">
+  <g id="bell" transform="translate(-42.657)">
+    <g id="Groupe_23" data-name="Groupe 23" transform="translate(42.657 3.648)">
+      <g id="Groupe_22" data-name="Groupe 22">
+        <path id="Tracé_28" data-name="Tracé 28" d="M63.427,92.116l-1.79-2.983a8.866,8.866,0,0,1-1.262-4.558V81.962a7.3,7.3,0,1,0-14.59,0v2.613a8.866,8.866,0,0,1-1.262,4.558l-1.79,2.983a.521.521,0,0,0,.447.789h19.8a.521.521,0,0,0,.447-.789ZM44.1,91.863l1.316-2.194a9.9,9.9,0,0,0,1.411-5.094V81.962a6.253,6.253,0,1,1,12.506,0v2.613a9.908,9.908,0,0,0,1.41,5.094l1.317,2.194Z" transform="translate(-42.657 -74.667)" fill="#fff"/>
+      </g>
+    </g>
+    <g id="Groupe_25" data-name="Groupe 25" transform="translate(50.995)">
+      <g id="Groupe_24" data-name="Groupe 24" transform="translate(0)">
+        <path id="Tracé_29" data-name="Tracé 29" d="M215.417,0a2.086,2.086,0,0,0-2.084,2.084V4.169a.521.521,0,0,0,1.042,0V2.084a1.042,1.042,0,0,1,2.084,0V4.169a.521.521,0,0,0,1.042,0V2.084A2.086,2.086,0,0,0,215.417,0Z" transform="translate(-213.333)" fill="#fff"/>
+      </g>
+    </g>
+    <g id="Groupe_27" data-name="Groupe 27" transform="translate(50.474 20.844)">
+      <g id="Groupe_26" data-name="Groupe 26">
+        <path id="Tracé_30" data-name="Tracé 30" d="M207.527,426.936a.522.522,0,1,0-.9.527,1.563,1.563,0,1,1-2.708,0,.522.522,0,1,0-.9-.527,2.606,2.606,0,1,0,4.508,0Z" transform="translate(-202.666 -426.68)" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>

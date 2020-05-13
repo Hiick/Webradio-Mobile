@@ -1,0 +1,6 @@
+brew tap mongodb/brew
+brew install mongodb-community
+
+sudo mkdir -p /data/db
+sudo chown $USER /data/db
+brew services start mongodb-community
