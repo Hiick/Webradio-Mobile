@@ -14,8 +14,8 @@ import { SocialLoginModule, AuthServiceConfig, FacebookLoginProvider } from 'ang
 //ENDFB
 
 //Observable
-import { Observable } from 'rxjs';
-import { catchError, retry } from 'rxjs/operators';
+//import { Observable } from 'rxjs';
+//import { catchError, retry } from 'rxjs/operators';
 
 //ROUTING
 

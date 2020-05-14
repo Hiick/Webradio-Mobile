@@ -1,8 +1,8 @@
 # See https://help.github.com/ignore-files/ for more about ignoring files.
 # dependencies
-*/node_modules
 */vendor
 .idea/
+node_modules/
 ApplicationMobile/client/.idea/
 ApplicationMobile/server/.idea/
 ApplicationMobile/client/node_modules/
