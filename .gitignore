@@ -1,0 +1,26 @@
+# See https://help.github.com/ignore-files/ for more about ignoring files.
+# dependencies
+*/node_modules
+*/vendor
+.idea/
+ApplicationMobile/client/.idea/
+ApplicationMobile/server/.idea/
+ApplicationMobile/client/node_modules/
+ApplicationMobile/server/node_modules/
+ApplicationMobile/client/config/
+ApplicationMobile/server/config/
+Site/Webradio/vendor/
+Site/Webradio/var/
+# testing
+/coverage
+# production
+/build
+# misc
+.DS_Store
+.env
+.env.test
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+# php version
+/.php-version

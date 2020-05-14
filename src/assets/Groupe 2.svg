@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="150" height="150" viewBox="0 0 150 150">
+  <g id="Groupe_2" data-name="Groupe 2" transform="translate(-113 -727)">
+    <g id="Ellipse_1" data-name="Ellipse 1" transform="translate(113 727)" fill="#fff" stroke="#707070" stroke-width="1">
+      <circle cx="75" cy="75" r="75" stroke="none"/>
+      <circle cx="75" cy="75" r="74.5" fill="none"/>
+    </g>
+    <path id="Tracé_1" data-name="Tracé 1" d="M9,0H30a9,9,0,0,1,9,9V30a9,9,0,0,1-9,9H9a9,9,0,0,1-9-9V9A9,9,0,0,1,9,0Z" transform="translate(168 783)" fill="#ef0051"/>
+    <text id="REC" transform="translate(168 751)" fill="#707070" font-size="20" font-family="HiraMaruProN-W4, Hiragino Maru Gothic ProN"><tspan x="0" y="18">REC</tspan></text>
+  </g>
+</svg>
