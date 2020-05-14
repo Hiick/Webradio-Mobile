@@ -6,6 +6,7 @@ import { HttpClient } from '@angular/common/http';
 
 //FB
 import { AuthService, FacebookLoginProvider, SocialUser } from 'angularx-social-login';
+import {LoginPage} from "../login/login";
 //import { Response } from '@angular/http';//Headers RequestOptions
 //import { map } from 'rxjs/operators';
 
@@ -27,7 +28,7 @@ export class RegisterPage implements OnInit {
   loggedIn: boolean = false;
   //FB
   user: SocialUser;
-  
+
   //ENDFB
   constructor(public navCtrl: NavController, public navParams: NavParams, private http: HttpClient, private authService: AuthService) {
   }
@@ -40,14 +41,13 @@ export class RegisterPage implements OnInit {
     //Http.get('/someUrl', config).then(successCallback, errorCallback);
     return this.http.get("http://localhost:3000/auth/facebook").subscribe((data) => {
       console.log(data)
-      
     });
   }
 
   signInWithFB(): void {
     this.authService.signIn(FacebookLoginProvider.PROVIDER_ID);
   }
-  
+
   signOut(): void {
     this.authService.signOut();
   }
@@ -59,4 +59,10 @@ export class RegisterPage implements OnInit {
       console.log(this.user);
     });
   }
+
+  public goToLogin() {
+    this.navCtrl.setRoot(LoginPage)
+  }
+
+
 }
