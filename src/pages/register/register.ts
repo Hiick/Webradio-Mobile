@@ -10,6 +10,7 @@ import {LoginPage} from "../login/login";
 
 //import { Response } from '@angular/http';//Headers RequestOptions
 //import { map } from 'rxjs/operators';
+import { NotificationPage } from '../notification/notification';
 
 
 /**
@@ -61,5 +62,9 @@ export class RegisterPage implements OnInit {
 
   public goToLogin() {
     this.navCtrl.setRoot(LoginPage)
+  }
+
+  public goToNotification() {
+    this.navCtrl.setRoot(NotificationPage)
   }
 }

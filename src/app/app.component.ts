@@ -11,6 +11,7 @@ import { RegisterPage } from './../pages/register/register';
 //import { Login_1Page } from './../pages/login-1/login-1';
 //import { TabsPage } from '../pages/tabs/tabs';
 //import { LoginPage } from '../pages/login/login';
+//import { NotificationPage } from '../pages/notification/notification';
 //import { RadioSubscribePage } from '../pages/radio-subscribe/radio-subscribe';
 
 import { AccountPage } from '../pages/account/account';
@@ -26,6 +27,7 @@ import { AccountSettingsPage } from '../pages/account-settings/account-settings'
 //import { Chaine_9Page } from '../pages/chaine-9/chaine-9';
 //import { ChaineRecPage } from '../pages/chaine-rec/chaine-rec';
 import { LoginPage } from '../pages/login/login';
+import { NotificationPage } from '../pages/notification/notification'
 @Component({
   templateUrl: 'app.html'
 })

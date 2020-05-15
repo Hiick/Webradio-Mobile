@@ -9,6 +9,25 @@
       <div id="fb-root"></div>
       <script async defer crossorigin="anonymous" src="https://connect.facebook.net/fr_FR/sdk.js#xfbml=1&version=v6.0"></script>
       
+      <button class="back_link_button" (click)="goToLogin()">
+        <svg xmlns="http://www.w3.org/2000/svg" width="27.003" height="15.369" viewBox="0 0 27.003 15.369">
+          <g id="back_link" data-name="back link" transform="translate(1.416 -8.293)">
+            <g id="icon" transform="translate(0 9)">
+              <path id="Line_2" data-name="Line 2" d="M.5,1H23.587" transform="translate(1 6)" fill="none" stroke="#333" stroke-linecap="square" stroke-miterlimit="10" stroke-width="2"/>
+              <path id="Path_2" data-name="Path 2" d="M7,0,0,7l7,6.955" fill="none" stroke="#333" stroke-miterlimit="10" stroke-width="2"/>
+            </g>
+          </g>
+        </svg>
+    </button>
+    <button class="button-home" (click)="goToLogin()">
+        <svg xmlns="http://www.w3.org/2000/svg" width="108" height="27" viewBox="0 0 108 27">
+            <g id="Groupe_6" data-name="Groupe 6" transform="translate(-102.443 -52)">
+              <rect id="Rectangle_4" data-name="Rectangle 4" width="99" height="27" rx="13.5" transform="translate(102.443 52)" fill="#ef0051"/>
+              <text id="Browse" transform="translate(124.443 52)" fill="#fff" font-size="20" font-family="SinhalaMN-Bold, Sinhala MN" font-weight="700"><tspan x="0" y="18">Retour</tspan></text>
+            </g>
+          </svg>
+    </button>
+    
       <div class="container">
           <div class="logo-container">
               <svg class="logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="58" height="36" viewBox="0 0 78 48">
@@ -18,8 +37,9 @@
                   </g>      
               </svg>
           </div>
+          
           <form class="form">
-      
+
               <div>
                   <input placeholder="Email" type="text" class="email-form">
               </div>

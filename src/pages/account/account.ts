@@ -5,6 +5,8 @@ import { RadioSubscribePage } from '../radio-subscribe/radio-subscribe';
 import { LoginPage } from '../login/login';
 import { AccountSettingsPage } from '../account-settings/account-settings';
 import { HomePage } from '../home/home';
+import { NotificationPage } from '../notification/notification';
+import { AlertController } from 'ionic-angular';
 /**
  * Generated class for the AccountPage page.
  *
@@ -36,5 +38,9 @@ public goToHomePage() {
 
   public goToAccountSettings() {
     this.navCtrl.setRoot(AccountSettingsPage)
+  }
+
+  public goToNotification() {
+    this.navCtrl.setRoot(NotificationPage)
   }
 }

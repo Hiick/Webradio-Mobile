@@ -26278,7 +26278,7 @@ page-homepage-chaine .seekbar {
 }
 
 page-homepage-chaine .logo {
-  margin-top: 10%;
+  margin-top: 15%;
   margin-left: 40%;
   margin-right: -33%;
 }
@@ -26298,8 +26298,9 @@ page-homepage-chaine .id-line {
 }
 
 page-homepage-chaine .radio-search {
-  margin-top: 8%;
-  margin-left: 10%;
+  width: 95%;
+  margin-top: 13%;
+  margin-left: 3%;
   border-radius: 20px;
   background: url(/Users/emericbayard/Desktop/Webradio/ApplicationMobile/client/src/assets/loupe.svg) no-repeat scroll 7px 7px;
   padding-left: 30px;
@@ -26335,8 +26336,8 @@ page-homepage-chaine .radio-ecoute {
 
 page-homepage-chaine .footer {
   position: fixed;
-  border-top-left-radius: 50px;
-  border-top-right-radius: 50px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
   border-top: solid grey 0.5px;
   min-height: 4em;
   background-color: white;
@@ -26354,6 +26355,10 @@ page-homepage-chaine .footer .radio1-icon {
   display: none;
   --overflow: hidden;
   overflow: hidden;
+}
+
+.chaine-list {
+  margin-top: 5%;
 }
 
 page-homepage-radio {
@@ -26428,7 +26433,7 @@ page-homepage-radio .seekbar {
 }
 
 page-homepage-radio .logo {
-  margin-top: 10%;
+  margin-top: 15%;
   margin-left: 40%;
   margin-right: -33%;
 }
@@ -26448,8 +26453,9 @@ page-homepage-radio .id-line {
 }
 
 page-homepage-radio .radio-search {
-  margin-top: 8%;
-  margin-left: 10%;
+  width: 95%;
+  margin-top: 13%;
+  margin-left: 3%;
   border-radius: 20px;
   background: url(/Users/emericbayard/Desktop/Webradio/ApplicationMobile/client/src/assets/loupe.svg) no-repeat scroll 7px 7px;
   padding-left: 30px;
@@ -26501,6 +26507,10 @@ page-homepage-radio .footer .radio1-icon {
   display: none;
   --overflow: hidden;
   overflow: hidden;
+}
+
+.radio-list {
+  margin-top: 5%;
 }
 
 page-login {
@@ -26555,7 +26565,7 @@ page-login .form {
 }
 
 page-login .email-form {
-  width: 174px;
+  width: 204px;
   height: 28,5px;
   margin-top: 22px;
   border-radius: 30px;
@@ -26566,7 +26576,7 @@ page-login .email-form {
 }
 
 page-login .password-form {
-  width: 174px;
+  width: 204px;
   height: 28,5px;
   margin-top: 22px;
   border-radius: 30px;
@@ -26602,7 +26612,7 @@ page-login .logo-container {
 }
 
 page-login .id-subscribe {
-  width: 174px;
+  width: 204px;
   height: 28px;
   margin-top: 30%;
   border-radius: 30px;
@@ -26750,7 +26760,7 @@ page-login-1 .form {
 }
 
 page-login-1 .email-form {
-  width: 174px;
+  width: 204px;
   height: 28,5px;
   margin-top: 22px;
   border-radius: 30px;
@@ -26761,7 +26771,7 @@ page-login-1 .email-form {
 }
 
 page-login-1 .password-form {
-  width: 174px;
+  width: 204px;
   height: 28,5px;
   margin-top: 22px;
   border-radius: 30px;
@@ -26897,6 +26907,265 @@ page-login-1 .already-account-link {
   text-decoration: none;
 }
 
+page-login-1 .back_link_button {
+  background-color: rgba(255, 255, 255, 0);
+  margin-top: 5%;
+}
+
+page-login-1 .button-home {
+  margin-left: -5%;
+  margin-right: 15%;
+}
+
+page-login-1 .header {
+  background-color: rgba(255, 255, 255, 0);
+  padding-top: 9%;
+}
+
+page-notification {
+  background-color: white;
+}
+
+page-notification .ion-header {
+  margin-top: 1%;
+  background-color: rgba(255, 255, 255, 0);
+  padding-top: 9%;
+  border: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+page-notification .account-icon {
+  margin-top: 45%;
+  margin-left: 23%;
+}
+
+page-notification .edit-icon {
+  margin-top: -38%;
+  margin-left: 42%;
+}
+
+page-notification .name-form {
+  margin-left: 21%;
+  width: 174px;
+  height: 28,5px;
+  margin-top: 22px;
+  border-radius: 30px;
+  margin-top: 40%;
+  border: solid grey 0.5px;
+  color: lightgrey;
+  text-align: center;
+}
+
+page-notification .ion-content {
+  --overflow: hidden;
+  overflow: hidden;
+}
+
+page-notification .id-subscribe {
+  margin-left: 21%;
+  width: 174px;
+  height: 28px;
+  margin-top: 10%;
+  border-radius: 30px;
+  color: lightgrey;
+  text-align: center;
+  background-color: #EF0051;
+  color: white;
+}
+
+page-notification .header-radio {
+  background-color: rgba(255, 255, 255, 0);
+}
+
+page-notification .back_link_button {
+  background-color: rgba(255, 255, 255, 0);
+}
+
+page-notification .delete-button {
+  margin-top: 0%;
+  margin-left: 33%;
+  color: #EF0051;
+}
+
+page-notification .seekbar {
+  margin-top: 12%;
+  margin-left: -12%;
+}
+
+page-notification .logo {
+  margin-top: 15%;
+  margin-left: 25%;
+  margin-right: -33%;
+}
+
+page-notification .bell-button {
+  margin-left: 40%;
+  margin-right: -3%;
+}
+
+page-notification .profil-button {
+  margin-right: -35%;
+}
+
+page-notification .id-line {
+  color: grey;
+  margin-left: 17%;
+}
+
+page-notification .radio-search {
+  width: 95%;
+  margin-top: 13%;
+  margin-left: 3%;
+  border-radius: 20px;
+  background: url(/Users/emericbayard/Desktop/Webradio/ApplicationMobile/client/src/assets/loupe.svg) no-repeat scroll 7px 7px;
+  padding-left: 30px;
+  background-color: whitesmoke;
+  color: lightgrey;
+  font-size: 0.8em;
+}
+
+page-notification .title-radio {
+  margin-top: 7%;
+  font-size: 0.7em;
+  margin-left: 7%;
+}
+
+page-notification .radio-name {
+  font-size: 0.6em;
+  color: black;
+  margin-top: -18%;
+  margin-left: 32%;
+  margin-bottom: 0%;
+}
+
+page-notification .play-icon {
+  margin-left: 67%;
+  margin-top: -22%;
+}
+
+page-notification .radio-ecoute {
+  font-size: 0.6em;
+  color: black;
+  margin-left: 32%;
+}
+
+page-notification .footer {
+  position: fixed;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-top: solid grey 0.5px;
+  min-height: 4em;
+  background-color: white;
+  height: auto;
+}
+
+page-notification .footer .radio1-icon {
+  margin-top: 5%;
+  margin-left: 20%;
+  margin-right: 30%;
+}
+
+::-webkit-scrollbar,
+*::-webkit-scrollbar {
+  display: none;
+  --overflow: hidden;
+  overflow: hidden;
+}
+
+.no-notif {
+  margin-left: 20%;
+}
+
+page-radio-rec-1 {
+  background-color: white;
+}
+
+page-radio-rec-1 .header {
+  background-color: rgba(255, 255, 255, 0);
+  padding-top: 9%;
+}
+
+page-radio-rec-1 .ion-content {
+  --overflow: hidden;
+  overflow: hidden;
+}
+
+page-radio-rec-1 .delete-button {
+  margin-top: 3%;
+  margin-left: 27%;
+  color: #EF0051;
+  font-size: 1.0em;
+}
+
+page-radio-rec-1 .header-radio {
+  background-color: rgba(255, 255, 255, 0);
+}
+
+page-radio-rec-1 .back_link_button {
+  background-color: rgba(255, 255, 255, 0);
+}
+
+page-radio-rec-1 .radio-icon {
+  margin-top: 10%;
+  margin-left: 10%;
+}
+
+page-radio-rec-1 .radio-icon .button-start-stop {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: rgba(255, 255, 255, 0);
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+page-radio-rec-1 .radio-infos {
+  margin-top: 3%;
+}
+
+page-radio-rec-1 .radio-infos .like-button {
+  margin-left: 65%;
+}
+
+page-radio-rec-1 .radio-infos .radio-title {
+  position: fixed;
+  margin-left: -55%;
+}
+
+page-radio-rec-1 .seekbar {
+  margin-top: 12%;
+  margin-left: -12%;
+}
+
+page-radio-rec-1 .button-home {
+  margin-left: -5%;
+  margin-right: 15%;
+}
+
+page-radio-rec-1 .button-rec {
+  margin-right: auto;
+  margin-left: 24%;
+}
+
+page-radio-rec-1 .nb-ecoute {
+  margin-left: 30%;
+}
+
+::-webkit-scrollbar,
+*::-webkit-scrollbar {
+  display: none;
+  --overflow: hidden;
+  overflow: hidden;
+}
+
 page-radio-subscribe {
   background-color: white;
 }
@@ -27026,7 +27295,7 @@ page-register .form {
 }
 
 page-register .id-form {
-  width: 174px;
+  width: 204px;
   height: 28,5px;
   margin-top: 40%;
   border-radius: 30px;
@@ -27036,7 +27305,7 @@ page-register .id-form {
 }
 
 page-register .email-form {
-  width: 174px;
+  width: 204px;
   height: 28,5px;
   margin-top: 22px;
   border-radius: 30px;
@@ -27046,7 +27315,7 @@ page-register .email-form {
 }
 
 page-register .password-form {
-  width: 174px;
+  width: 204px;
   height: 28,5px;
   margin-top: 22px;
   border-radius: 30px;
@@ -27082,7 +27351,7 @@ page-register .logo-container {
 }
 
 page-register .id-subscribe {
-  width: 174px;
+  width: 204px;
   height: 28px;
   margin-top: 30%;
   border-radius: 30px;

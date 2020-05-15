@@ -1,7 +1,11 @@
+import { HomepageRadioPage } from './../homepage-radio/homepage-radio';
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 //alert 
 import { AlertController } from 'ionic-angular';
+import { RegisterPage } from '../register/register';
+import { LoginPage } from '../login/login';
+import { NotificationPage } from '../notification/notification';
 /**
  * Generated class for the Login_1Page page.
  *
@@ -32,4 +36,23 @@ export class Login_1Page {
     alert.present();
   }
 
+  public goToRegister() {
+    this.navCtrl.setRoot(RegisterPage)
+  }
+
+  public goToLogin1() {
+    this.navCtrl.setRoot(Login_1Page)
+  }
+
+  public goToHomePage() {
+    this.navCtrl.setRoot(HomepageRadioPage)
+  }
+
+  public goToLogin() {
+    this.navCtrl.setRoot(LoginPage)
+  }
+
+  public goToNotification() {
+    this.navCtrl.setRoot(NotificationPage)
+  }
 }

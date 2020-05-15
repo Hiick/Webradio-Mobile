@@ -6,6 +6,8 @@ import { HomePage } from '../home/home';
 import { AccountPage } from '../account/account';
 import { ChaineRecPage } from '../chaine-rec/chaine-rec';
 import { Chaine_1Page } from '../chaine-1/chaine-1';
+import { AccountSettingsPage } from '../account-settings/account-settings';
+import { NotificationPage } from '../notification/notification';
 
 
 /**
@@ -36,7 +38,7 @@ export class Chaine_9Page {
     this.navCtrl.setRoot(LoginPage)
   }
 
-  public goToAccount() {
+  public goToAccountSettings() {
     this.navCtrl.setRoot(AccountPage)
   }
 
@@ -46,5 +48,12 @@ export class Chaine_9Page {
 
   public goToChaine1() {
     this.navCtrl.setRoot(Chaine_1Page)
+  }
+  public goToAccount() {
+    this.navCtrl.setRoot(AccountSettingsPage)
+  }
+
+  public goToNotification() {
+    this.navCtrl.setRoot(NotificationPage)
   }
 }

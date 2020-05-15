@@ -2,6 +2,9 @@ import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import { LoginPage } from '../login/login';
 import { HomePage } from '../home/home';
+import { NotificationPage } from '../notification/notification';
+import { HomepageRadioPage } from '../homepage-radio/homepage-radio';
+import { AccountPage } from '../account/account';
 
 /**
  * Generated class for the AccountSettingsPage page.
@@ -28,7 +31,15 @@ export class AccountSettingsPage {
     this.navCtrl.setRoot(LoginPage)
   }
 
-  public goToHomepage() {
-    this.navCtrl.setRoot(HomePage)
+  public goToHomePage() {
+    this.navCtrl.setRoot(HomepageRadioPage)
+  }
+
+  public goToNotification() {
+    this.navCtrl.setRoot(NotificationPage)
+  }
+  
+  public goToAccount() {
+    this.navCtrl.setRoot(AccountPage)
   }
 }

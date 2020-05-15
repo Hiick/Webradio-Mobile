@@ -57,6 +57,8 @@ export function provideConfig() {
 //import { RouterModule, Routes } from '@angular/router';
 import { AccountSettingsPage } from '../pages/account-settings/account-settings';
 import { Chaine_1Page } from '../pages/chaine-1/chaine-1';
+import { RadioRec_1Page } from '../pages/radio-rec-1/radio-rec-1';
+import { NotificationPage } from '../pages/notification/notification';
 
 // sets up routes constant where you define your routes
 @NgModule({
@@ -76,7 +78,9 @@ import { Chaine_1Page } from '../pages/chaine-1/chaine-1';
     Chaine_9Page,
     ChaineRecPage,
     AccountSettingsPage,
-    Chaine_1Page
+    Chaine_1Page,
+    RadioRec_1Page,
+    NotificationPage
   ],
   imports: [
     BrowserModule,
@@ -104,7 +108,9 @@ import { Chaine_1Page } from '../pages/chaine-1/chaine-1';
     Chaine_9Page,
     ChaineRecPage,
     AccountSettingsPage,
-    Chaine_1Page
+    Chaine_1Page,
+    RadioRec_1Page,
+    NotificationPage
   ],
   providers: [
     StatusBar,

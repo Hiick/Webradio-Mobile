@@ -3,6 +3,9 @@ import { LoginPage } from './../login/login';
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import { AccountPage } from '../account/account';
+import { Chaine_9Page } from '../chaine-9/chaine-9';
+import { AccountSettingsPage } from '../account-settings/account-settings';
+import { NotificationPage } from '../notification/notification';
 
 /**
  * Generated class for the Chaine_1Page page.
@@ -33,7 +36,15 @@ export class Chaine_1Page {
     this.navCtrl.setRoot(LoginPage)
   }
 
-  public goToAccount() {
-    this.navCtrl.setRoot(AccountPage)
+  public goToAccountSettings() {
+    this.navCtrl.setRoot(AccountSettingsPage)
+  }
+
+  public goToChaine9() {
+    this.navCtrl.setRoot(Chaine_9Page)
+  }
+
+  public goToNotification() {
+    this.navCtrl.setRoot(NotificationPage)
   }
 }

@@ -75,11 +75,12 @@ page-homepage-radio {
     }
 
     .logo {
-        margin-top: 10%;
+        margin-top: 15%;
         margin-left: 40%;
         margin-right: -33%;
     }
     .bell-button {
+        //margin-top: 60px;
         margin-left: 40%;
         margin-right: -3%;
     }
@@ -93,8 +94,9 @@ page-homepage-radio {
     }
 
     .radio-search {
-        margin-top: 8%;
-        margin-left: 10%;
+        width:  95%;
+        margin-top: 13%;
+        margin-left:    3%;
         border-radius: 20px;
         background: url(/Users/emericbayard/Desktop/Webradio/ApplicationMobile/client/src/assets/loupe.svg ) no-repeat scroll 7px 7px;
         padding-left:30px;
@@ -153,4 +155,8 @@ page-homepage-radio {
   display: none;
   --overflow: hidden;
   overflow: hidden;
+}
+
+.radio-list {
+    margin-top: 5%;
 }

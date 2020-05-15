@@ -3,6 +3,7 @@ import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import {RegisterPage} from "../register/register";
 import { Login_1Page } from '../login-1/login-1';
+import { NotificationPage } from '../notification/notification';
 
 
 
@@ -38,5 +39,9 @@ export class LoginPage {
 
   public goToHomePage() {
     this.navCtrl.setRoot(HomepageRadioPage)
+  }
+
+  public goToNotification() {
+    this.navCtrl.setRoot(NotificationPage)
   }
 }

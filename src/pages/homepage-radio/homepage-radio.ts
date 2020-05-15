@@ -5,6 +5,9 @@ import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import { AccountPage } from '../account/account';
 import { HomepageChainePage } from '../homepage-chaine/homepage-chaine';
+import { RadioRec_1Page } from '../radio-rec-1/radio-rec-1';
+import { NotificationPage } from '../notification/notification';
+import { AccountSettingsPage } from '../account-settings/account-settings';
 
 /**
  * Generated class for the HomepageRadioPage page.
@@ -27,8 +30,8 @@ export class HomepageRadioPage {
     console.log('ionViewDidLoad HomepageRadioPage');
   }
 
-  public goToAccount() {
-    this.navCtrl.setRoot(AccountPage)
+  public goToAccountSettings() {
+    this.navCtrl.setRoot(AccountSettingsPage)
   }
 
   public goToHomePageChaine() {
@@ -40,6 +43,14 @@ export class HomepageRadioPage {
   }
 
   public goToHomePageRadio() {
-    this.navCtrl.setRoot(HomepageRadioPage)
+    this.navCtrl.setRoot(RadioRec_1Page)
+  }
+
+  public goToNotification() {
+    this.navCtrl.setRoot(NotificationPage)
+  }
+
+  public Notification() {
+    this.navCtrl.setRoot(NotificationPage)
   }
 }
