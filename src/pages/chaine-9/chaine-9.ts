@@ -5,6 +5,7 @@ import { HomePage } from '../home/home';
 import { AccountPage } from '../account/account';
 import { ChaineRecPage } from '../chaine-rec/chaine-rec';
 
+
 /**
  * Generated class for the Chaine_9Page page.
  *
@@ -25,7 +26,6 @@ export class Chaine_9Page {
   ionViewDidLoad() {
     console.log('ionViewDidLoad Chaine_9Page');
   }
-
   public goToHomepage() {
     this.navCtrl.setRoot(HomePage)
   }

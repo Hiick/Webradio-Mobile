@@ -5,6 +5,7 @@ import { AccountPage } from '../account/account';
 import { LoginPage } from '../login/login';
 import { HomePage } from '../home/home';
 
+
 /**
  * Generated class for the ChaineRecPage page.
  *
