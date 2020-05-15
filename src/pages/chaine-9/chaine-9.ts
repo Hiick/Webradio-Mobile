@@ -1,9 +1,11 @@
+import { HomepageRadioPage } from './../homepage-radio/homepage-radio';
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import { LoginPage } from '../login/login';
 import { HomePage } from '../home/home';
 import { AccountPage } from '../account/account';
 import { ChaineRecPage } from '../chaine-rec/chaine-rec';
+import { Chaine_1Page } from '../chaine-1/chaine-1';
 
 
 /**
@@ -27,7 +29,7 @@ export class Chaine_9Page {
     console.log('ionViewDidLoad Chaine_9Page');
   }
   public goToHomepage() {
-    this.navCtrl.setRoot(HomePage)
+    this.navCtrl.setRoot(HomepageRadioPage)
   }
 
   public goToLogin() {
@@ -40,5 +42,9 @@ export class Chaine_9Page {
 
   public goToChaineRec() {
     this.navCtrl.setRoot(ChaineRecPage)
+  }
+
+  public goToChaine1() {
+    this.navCtrl.setRoot(Chaine_1Page)
   }
 }

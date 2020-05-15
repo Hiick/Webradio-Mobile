@@ -25,14 +25,14 @@ import { AccountSettingsPage } from '../pages/account-settings/account-settings'
 //import { HomepageChainePage } from '../pages/homepage-chaine/homepage-chaine';
 //import { Chaine_9Page } from '../pages/chaine-9/chaine-9';
 //import { ChaineRecPage } from '../pages/chaine-rec/chaine-rec';
-
+import { LoginPage } from '../pages/login/login';
 @Component({
   templateUrl: 'app.html'
 })
 
 export class MyApp {
 
-  rootPage:any = ChaineRecPage;
+  rootPage:any = LoginPage;
 
 
 

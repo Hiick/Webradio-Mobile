@@ -1,23 +1,14 @@
 webpackJsonp([8],{
 
-<<<<<<< HEAD
-/***/ 688:
-=======
-/***/ 687:
->>>>>>> f550f729f10ee99323e6210f098db9a3c6e0dd01
+/***/ 690:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AccountPageModule", function() { return AccountPageModule; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Chaine_1PageModule", function() { return Chaine_1PageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
-<<<<<<< HEAD
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(17);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__account__ = __webpack_require__(348);
-=======
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(19);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__account__ = __webpack_require__(347);
->>>>>>> f550f729f10ee99323e6210f098db9a3c6e0dd01
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(16);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__chaine_1__ = __webpack_require__(354);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -27,23 +18,23 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-var AccountPageModule = /** @class */ (function () {
-    function AccountPageModule() {
+var Chaine_1PageModule = /** @class */ (function () {
+    function Chaine_1PageModule() {
     }
-    AccountPageModule = __decorate([
+    Chaine_1PageModule = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
             declarations: [
-                __WEBPACK_IMPORTED_MODULE_2__account__["a" /* AccountPage */],
+                __WEBPACK_IMPORTED_MODULE_2__chaine_1__["a" /* Chaine_1Page */],
             ],
             imports: [
-                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__account__["a" /* AccountPage */]),
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__chaine_1__["a" /* Chaine_1Page */]),
             ],
         })
-    ], AccountPageModule);
-    return AccountPageModule;
+    ], Chaine_1PageModule);
+    return Chaine_1PageModule;
 }());
 
-//# sourceMappingURL=account.module.js.map
+//# sourceMappingURL=chaine-1.module.js.map
 
 /***/ })
 

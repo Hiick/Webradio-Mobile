@@ -1,5 +1,7 @@
+import { HomepageRadioPage } from './../homepage-radio/homepage-radio';
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { Chaine_9Page } from '../chaine-9/chaine-9';
 
 /**
  * Generated class for the HomepageChainePage page.
@@ -22,4 +24,11 @@ export class HomepageChainePage {
     console.log('ionViewDidLoad HomepageChainePage');
   }
 
+  public goToHomePageRadio() {
+    this.navCtrl.setRoot(HomepageRadioPage)
+  }
+
+  public goToChaine9() {
+    this.navCtrl.setRoot(Chaine_9Page)
+  }
 }

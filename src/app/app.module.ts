@@ -14,20 +14,14 @@ import { SocialLoginModule, AuthServiceConfig, FacebookLoginProvider } from 'ang
 //ENDFB
 
 //Observable
-<<<<<<< HEAD
 import { Observable } from 'rxjs';
 import { catchError, retry } from 'rxjs/operators';
-
-=======
 //import { Observable } from 'rxjs';
 //import { catchError, retry } from 'rxjs/operators';
 
 //ROUTING
 
 //import { AppRoutingModule } from '../../routing-app/src/app/app-routing.module';
->>>>>>> f550f729f10ee99323e6210f098db9a3c6e0dd01
-
-
 import { AboutPage } from '../pages/about/about';
 import { ContactPage } from '../pages/contact/contact';
 import { HomePage } from '../pages/home/home';
@@ -58,16 +52,13 @@ export function provideConfig() {
 }
 //ENDFB
 
-<<<<<<< HEAD
 
 //ROUTING
 //import { RouterModule, Routes } from '@angular/router';
 import { AccountSettingsPage } from '../pages/account-settings/account-settings';
+import { Chaine_1Page } from '../pages/chaine-1/chaine-1';
 
 // sets up routes constant where you define your routes
-
-=======
->>>>>>> f550f729f10ee99323e6210f098db9a3c6e0dd01
 @NgModule({
   declarations: [
     MyApp,
@@ -83,12 +74,9 @@ import { AccountSettingsPage } from '../pages/account-settings/account-settings'
     HomepageRadioPage,
     HomepageChainePage,
     Chaine_9Page,
-<<<<<<< HEAD
     ChaineRecPage,
-    AccountSettingsPage
-=======
-    ChaineRecPage
->>>>>>> f550f729f10ee99323e6210f098db9a3c6e0dd01
+    AccountSettingsPage,
+    Chaine_1Page
   ],
   imports: [
     BrowserModule,
@@ -114,12 +102,9 @@ import { AccountSettingsPage } from '../pages/account-settings/account-settings'
     HomepageRadioPage,
     HomepageChainePage,
     Chaine_9Page,
-<<<<<<< HEAD
     ChaineRecPage,
-    AccountSettingsPage
-=======
-    ChaineRecPage
->>>>>>> f550f729f10ee99323e6210f098db9a3c6e0dd01
+    AccountSettingsPage,
+    Chaine_1Page
   ],
   providers: [
     StatusBar,
@@ -129,11 +114,6 @@ import { AccountSettingsPage } from '../pages/account-settings/account-settings'
       provide: AuthServiceConfig,
       useFactory: provideConfig
     }
-
-<<<<<<< HEAD
   ],
-=======
-  ]
->>>>>>> f550f729f10ee99323e6210f098db9a3c6e0dd01
 })
 export class AppModule {}

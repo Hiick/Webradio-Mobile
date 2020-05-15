@@ -25,8 +25,8 @@ export class Login_1Page {
 
   alertMail() {
     let alert = this.alertCtrl.create({
-      title: 'Low battery',
-      subTitle: '10% of battery remaining',
+      title: 'Mail',
+      subTitle: 'Un mail à bien été envoyé !',
       buttons: ['Dismiss']
     });
     alert.present();
