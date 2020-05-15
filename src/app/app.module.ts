@@ -17,9 +17,6 @@ import { SocialLoginModule, AuthServiceConfig, FacebookLoginProvider } from 'ang
 import { Observable } from 'rxjs';
 import { catchError, retry } from 'rxjs/operators';
 
-//ROUTING
-
-//import { AppRoutingModule } from '../../routing-app/src/app/app-routing.module';
 
 
 import { AboutPage } from '../pages/about/about';
@@ -52,6 +49,13 @@ export function provideConfig() {
 }
 //ENDFB
 
+
+//ROUTING
+//import { RouterModule, Routes } from '@angular/router';
+import { AccountSettingsPage } from '../pages/account-settings/account-settings';
+
+// sets up routes constant where you define your routes
+
 @NgModule({
   declarations: [
     MyApp,
@@ -67,7 +71,8 @@ export function provideConfig() {
     HomepageRadioPage,
     HomepageChainePage,
     Chaine_9Page,
-    ChaineRecPage
+    ChaineRecPage,
+    AccountSettingsPage
   ],
   imports: [
     BrowserModule,
@@ -93,7 +98,8 @@ export function provideConfig() {
     HomepageRadioPage,
     HomepageChainePage,
     Chaine_9Page,
-    ChaineRecPage
+    ChaineRecPage,
+    AccountSettingsPage
   ],
   providers: [
     StatusBar,
@@ -104,6 +110,6 @@ export function provideConfig() {
       useFactory: provideConfig
     }
 
-  ]
+  ],
 })
 export class AppModule {}

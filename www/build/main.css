@@ -25793,6 +25793,116 @@ page-account .id-line {
   overflow: hidden;
 }
 
+page-account-settings {
+  background-color: white;
+}
+
+page-account-settings .ion-header {
+  margin-top: 1%;
+  background-color: rgba(255, 255, 255, 0);
+  padding-top: 9%;
+  border: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+page-account-settings .account-icon {
+  margin-top: 45%;
+  margin-left: 23%;
+}
+
+page-account-settings .edit-icon {
+  margin-top: -38%;
+  margin-left: 42%;
+}
+
+page-account-settings .name-form {
+  margin-left: 21%;
+  width: 174px;
+  height: 28,5px;
+  margin-top: 22px;
+  border-radius: 30px;
+  margin-top: 40%;
+  border: solid grey 0.5px;
+  color: lightgrey;
+  text-align: center;
+}
+
+page-account-settings .ion-content {
+  --overflow: hidden;
+  overflow: hidden;
+}
+
+page-account-settings .id-subscribe {
+  margin-left: 21%;
+  width: 174px;
+  height: 28px;
+  margin-top: 10%;
+  border-radius: 30px;
+  color: lightgrey;
+  text-align: center;
+  background-color: #EF0051;
+  color: white;
+}
+
+page-account-settings .header-radio {
+  background-color: rgba(255, 255, 255, 0);
+}
+
+page-account-settings .back_link_button {
+  background-color: rgba(255, 255, 255, 0);
+}
+
+page-account-settings .delete-button {
+  margin-top: 0%;
+  margin-left: 33%;
+  color: #EF0051;
+}
+
+page-account-settings .seekbar {
+  margin-top: 12%;
+  margin-left: -12%;
+}
+
+page-account-settings .button-home {
+  margin-left: -5%;
+  margin-right: 15%;
+}
+
+page-account-settings .bell-button {
+  margin-left: 0%;
+}
+
+page-account-settings .id-line {
+  color: grey;
+  margin-left: 17%;
+}
+
+page-account-settings .sub-stream {
+  margin-left: 18%;
+}
+
+page-account-settings .change-pwd {
+  margin-left: 18%;
+  margin-bottom: 55%;
+}
+
+page-account-settings .parms-profil {
+  margin-left: 18%;
+}
+
+page-account-settings .parms-chaine {
+  margin-top: 50%;
+  margin-left: 18%;
+}
+
+::-webkit-scrollbar,
+*::-webkit-scrollbar {
+  display: none;
+  --overflow: hidden;
+  overflow: hidden;
+}
+
 page-chaine-9 {
   background-color: white;
 }

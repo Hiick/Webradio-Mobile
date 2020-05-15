@@ -1,5 +1,9 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { RadioSubscribePage } from '../radio-subscribe/radio-subscribe';
+import { LoginPage } from '../login/login';
+import { AccountSettingsPage } from '../account-settings/account-settings';
+import { HomePage } from '../home/home';
 
 /**
  * Generated class for the AccountPage page.
@@ -22,4 +26,15 @@ export class AccountPage {
     console.log('ionViewDidLoad AccountPage');
   }
 
+public goToHomepage() {
+    this.navCtrl.setRoot(HomePage)
+  }
+
+  public goToLogin() {
+    this.navCtrl.setRoot(LoginPage)
+  }
+
+  public goToAccountSettings() {
+    this.navCtrl.setRoot(AccountSettingsPage)
+  }
 }
