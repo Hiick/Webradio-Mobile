@@ -1,0 +1,156 @@
+page-homepage-radio {
+    .ion-header {
+        margin-top: 1%;
+        background-color:rgba(255, 255, 255, 0.0);
+        padding-top: 9%;
+        border: none;
+        box-shadow: none;
+    }
+    .account-icon {
+        margin-top: 45%;
+        margin-left: 23%;
+    }
+
+    .edit-icon {
+        margin-top: -38%;
+        margin-left: 42%;
+    }
+
+    .name-form {
+        margin-left: 21%;
+        width: 174px;//232px;
+        height: 28,5px;//38px;
+        margin-top: 22px;
+        border-radius: 30px;
+        margin-top: 40%;
+        border: solid grey 0.5px;
+        color: lightgrey;
+        text-align: center;
+    }
+    .ion-content {
+        --overflow: hidden;
+        overflow: hidden;
+    }
+
+    .id-subscribe {
+        //width: 174px;//232px;
+        //height: 28,5px;//38px;
+        //margin-top: 22px;
+        //border-radius: 30px;
+        //border: solid grey 0.5px;
+        //color: lightgrey;
+       // text-align: center;
+        margin-left: 21%;
+        width: 174px;//232px;
+        height: 28px;//38px;
+        margin-top: 10%;
+        border-radius: 30px;
+        //border: solid grey 0.5px;
+        color: lightgrey;
+        text-align: center;
+        background-color: #EF0051;
+        color: white;
+    }
+
+    background-color:rgb(255, 255, 255);
+    
+    .header-radio {
+        background-color:rgba(255, 255, 255, 0.0);
+    }
+    .back_link_button {
+        background-color:rgba(255, 255, 255, 0.0);
+    }
+
+    .delete-button {
+        margin-top: 0%;
+        margin-left: 33%;
+        color: #EF0051;
+    }
+
+    .seekbar {
+        margin-top: 12%;
+        margin-left: -12%;
+        
+
+    }
+
+    .logo {
+        margin-top: 10%;
+        margin-left: 40%;
+        margin-right: -33%;
+    }
+    .bell-button {
+        margin-left: 40%;
+        margin-right: -3%;
+    }
+    
+    .profil-button {
+        margin-right: -35%;
+    }
+    .id-line {
+        color: grey;
+        margin-left: 17%;
+    }
+
+    .radio-search {
+        margin-top: 8%;
+        margin-left: 10%;
+        border-radius: 20px;
+        background: url(/Users/emericbayard/Desktop/Webradio/ApplicationMobile/client/src/assets/loupe.svg ) no-repeat scroll 7px 7px;
+        padding-left:30px;
+        background-color: lightgray;
+        color: grey
+    }
+
+    .title-radio {
+        margin-top: 7%;
+        
+    }
+    .radio-name {
+        font-size: 0.6em;
+        color: black;
+        margin-top: -18%;
+        margin-left: 32%;
+        margin-bottom: 0%;
+    }
+
+    .play-icon {
+        margin-left: 67%;
+        margin-top: -22%;
+
+    }
+    .radio-ecoute {
+        font-size: 0.6em;
+        color: black;
+        margin-left: 32%;
+    }
+    
+    
+
+    .footer {
+        position: fixed;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        border-top: solid grey 0.5px;
+        min-height: 4em;
+        background-color: white;
+        
+        height: auto;
+
+        .radio1-icon {
+            margin-top: 5%;
+            margin-left: 20%;
+            margin-right: 30%;
+            
+        }
+    
+    
+    }
+}
+
+::-webkit-scrollbar,
+*::-webkit-scrollbar {
+  display: none;
+  --overflow: hidden;
+  overflow: hidden;
+}

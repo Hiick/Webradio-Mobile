@@ -1,0 +1,78 @@
+page-radio-subscribe {
+    .header {
+        background-color:rgba(255, 255, 255, 0.0);
+        padding-top: 9%;
+        //border: none;
+    }
+    
+    .ion-content {
+        --overflow: hidden;
+    }
+
+
+    background-color:rgb(255, 255, 255);
+    
+    .header-radio {
+        background-color:rgba(255, 255, 255, 0.0);
+    }
+    .back_link_button {
+        background-color:rgba(255, 255, 255, 0.0);
+    }
+
+    .radio-icon {
+        margin-top: 10%;
+        margin-left: 8%;
+
+        
+        .button-start-stop {
+            position: absolute;
+            top: 30%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            background-color:rgba(255, 255, 255, 0.0);
+            color: white;
+            font-size: 16px;
+            padding: 12px 24px;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            
+        }
+    }
+
+    .radio-infos {
+        .like-button {
+            margin-left: 65%;
+        }
+        .radio-title {
+            position: fixed;
+            margin-left: -35%;
+        }
+        margin-top: 3%;
+    }
+
+    .seekbar {
+        margin-top: 12%;
+        margin-left: -12%;
+        
+
+    }
+
+    .button-home {
+        margin-left: -5%;
+        margin-right: 15%;
+    }
+
+    .button-rec {
+        margin-right: auto;
+        margin-left: 24%;
+    }
+}
+
+::-webkit-scrollbar,
+*::-webkit-scrollbar {
+  display: none;
+  --overflow: hidden;
+  overflow: hidden;
+}

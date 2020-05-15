@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="286.649" height="58" viewBox="0 0 286.649 58">
+  <defs>
+    <filter id="Oval_2" x="141.5" y="0" width="59" height="58" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2.5" result="blur"/>
+      <feFlood flood-opacity="0.2"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="controls" transform="translate(-0.5 -54)">
+    <g id="volume" transform="translate(171.819 63) rotate(90)">
+      <g id="Group_6" data-name="Group 6" transform="translate(0 -112.83)">
+        <path id="Line_3" data-name="Line 3" d="M1,0V281.649" transform="translate(18.715)" fill="none" stroke="#ebebeb" stroke-linecap="square" stroke-miterlimit="10" stroke-width="5"/>
+        <path id="Line_3_Copy" data-name="Line 3 Copy" d="M1,0V168.989" transform="translate(18.715 112.66)" fill="none" stroke="#ef0051" stroke-linecap="square" stroke-miterlimit="10" stroke-width="5"/>
+        <g transform="matrix(0, -1, 1, 0, -9, 284.15)" filter="url(#Oval_2)">
+          <ellipse id="Oval_2-2" data-name="Oval 2" cx="20" cy="20.5" rx="20" ry="20.5" transform="translate(191.5 9) rotate(90)" fill="#fff" stroke="#d9d9d9" stroke-miterlimit="10" stroke-width="3"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

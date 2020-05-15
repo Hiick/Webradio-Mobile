@@ -1,0 +1,182 @@
+page-login-1{
+    
+    ::placeholder {
+        color: lightgrey;
+        font-size: 13px;
+    }
+    @font-face {
+        font-family: 'PT Sans', ;
+        src: url(https://fonts.googleapis.com/css?family=PT+Sans&display=swap);
+    }
+    background-color: white;
+    .container {
+        //background-color: red;  
+        //position: relative;
+        //top:-100px;
+        width: 217px;//290px; //-25% 217
+        height: 420px;//560px; //-25% 420
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        //margin-top: 15%;
+        margin-bottom:70%;
+    }
+    
+    .form {
+        border-radius: 30px;
+        border: solid grey 0.5px;
+        color: lightgrey;
+        text-align: center;
+        width: 217px;//290px; -25
+        height: 378.75px//505px; -25
+    
+    }
+    
+    .email-form {
+        width: 174px;//232px;
+        height: 28,5px;//38px;
+        margin-top: 22px;
+        border-radius: 30px;
+        margin-top: 40%;
+        border: solid grey 0.5px;
+        color: lightgrey;
+        text-align: center;
+    }
+    
+    .password-form {
+        width: 174px;//232px;
+        height: 28,5px;//38px;
+        margin-top: 22px;
+        border-radius: 30px;
+        border: solid grey 0.5px;
+        color: lightgrey;
+        text-align: center;
+    }
+    
+    .form-control {
+        
+        border-radius: 30px;
+        border: solid grey 0.5px;
+        color: lightgrey;
+        text-align: center;
+    }
+    
+    .logo {
+       margin-top: 25px;
+       position: absolute;
+       top: -6px; left: 14px;
+    }
+    
+    .logo-container {
+        position: relative;
+        top: 42px; left: 6px;
+        border-radius: 50%;
+        margin-left: 30%;
+        width: 80px;
+        height: 80px;
+        border: solid grey 0.5px;
+        background-color: white;
+    }
+    
+    .id-subscribe {
+        //width: 174px;//232px;
+        //height: 28,5px;//38px;
+        //margin-top: 22px;
+        //border-radius: 30px;
+        //border: solid grey 0.5px;
+       // text-align: center;
+
+        width: 174px;//232px;
+        height: 28px;//38px;
+        margin-top: 30%;
+        border-radius: 30px;
+        //border: solid grey 0.5px;
+
+        text-align: center;
+        background-color: #EF0051;
+        color: white;
+    }
+    
+    .id-infos {
+        margin-top: 40%;
+        color: grey;
+        font-size: 14px;
+    }
+    .id-facebook {
+        width: 232px;
+        height: 38px;
+        margin-top: 15px;
+        border-radius: 30px;
+        border: solid grey 0.5px;
+        color: lightgrey;
+        text-align: center;
+        background-color: blue;
+        color: white;
+    }
+    
+    // GOOGLE FB BUTTON
+    
+    body { padding: 2em; }
+    
+    
+    /* Shared */
+    .loginBtn {
+      box-sizing: border-box;
+      position: relative;
+      /* width: 13em;  - apply for fixed size */
+      margin: 0.2em;
+      padding: 0 15px 0 46px;
+      border: none;
+      text-align: left;
+      line-height: 34px;
+      white-space: nowrap;
+      border-radius: 0.2em;
+      font-size: 16px;
+      color: #FFF;
+    }
+    .loginBtn:before {
+      content: "";
+      box-sizing: border-box;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 34px;
+      height: 100%;
+    }
+    .loginBtn:focus {
+      outline: none;
+    }
+    .loginBtn:active {
+      box-shadow: inset 0 0 0 32px rgba(0,0,0,0.1);
+    }
+    
+    
+    /* Facebook */
+    .loginBtn--facebook {
+      background-color: #4C69BA;
+      background-image: linear-gradient(#4C69BA, #3B55A0);
+      /*font-family: "Helvetica neue", Helvetica Neue, Helvetica, Arial, sans-serif;*/
+      text-shadow: 0 -1px 0 #354C8C;
+    }
+    .loginBtn--facebook:before {
+      border-right: #364e92 1px solid;
+      background: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/14082/icon_facebook.png') 6px 6px no-repeat;
+    }
+    .loginBtn--facebook:hover,
+    .loginBtn--facebook:focus {
+      background-color: #5B7BD5;
+      background-image: linear-gradient(#5B7BD5, #4864B1);
+    }
+    
+    .already-account {
+        color: grey ;
+        position: relative;
+        top: 10px;
+        display: inline;
+        font-size: 12px;
+    }
+    .already-account-link {
+        color: #EF0051;
+        text-decoration: none;
+    }
+}
