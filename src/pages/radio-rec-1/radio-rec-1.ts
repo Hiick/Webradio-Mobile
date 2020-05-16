@@ -50,4 +50,9 @@ export class RadioRec_1Page {
   public goToAccount() {
     this.navCtrl.setRoot(AccountSettingsPage)
   }
+
+  public addFavoritee() {
+    document.getElementById("like-button-red").style.display = "block";
+    document.getElementById("like-button-white").style.display = "none";
+  } 
 }

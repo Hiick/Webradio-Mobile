@@ -5,6 +5,7 @@ import { HomePage } from '../home/home';
 import { NotificationPage } from '../notification/notification';
 import { HomepageRadioPage } from '../homepage-radio/homepage-radio';
 import { AccountPage } from '../account/account';
+import { PasswordChangePage } from '../password-change/password-change';
 
 /**
  * Generated class for the AccountSettingsPage page.
@@ -41,5 +42,9 @@ export class AccountSettingsPage {
   
   public goToAccount() {
     this.navCtrl.setRoot(AccountPage)
+  }
+
+  public goToPassword() {
+    this.navCtrl.setRoot(PasswordChangePage)
   }
 }

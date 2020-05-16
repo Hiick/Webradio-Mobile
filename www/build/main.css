@@ -25706,7 +25706,7 @@ page-account {
 }
 
 page-account .ion-header {
-  margin-top: 1%;
+  margin-top: 10%;
   background-color: rgba(255, 255, 255, 0);
   padding-top: 9%;
   border: none;
@@ -25715,7 +25715,7 @@ page-account .ion-header {
 }
 
 page-account .account-icon {
-  margin-top: 45%;
+  margin-top: 30%;
   margin-left: 23%;
 }
 
@@ -25855,7 +25855,7 @@ page-account-settings .back_link_button {
 
 page-account-settings .delete-button {
   margin-top: 0%;
-  margin-left: 33%;
+  margin-left: 38%;
   color: #EF0051;
 }
 
@@ -25875,25 +25875,25 @@ page-account-settings .bell-button {
 
 page-account-settings .id-line {
   color: grey;
-  margin-left: 17%;
+  margin-left: 21%;
 }
 
 page-account-settings .sub-stream {
-  margin-left: 18%;
+  margin-left: 22%;
 }
 
 page-account-settings .change-pwd {
-  margin-left: 18%;
+  margin-left: 22%;
   margin-bottom: 55%;
 }
 
 page-account-settings .parms-profil {
-  margin-left: 18%;
+  margin-left: 22%;
 }
 
 page-account-settings .parms-chaine {
   margin-top: 50%;
-  margin-left: 18%;
+  margin-left: 22%;
 }
 
 ::-webkit-scrollbar,
@@ -26106,6 +26106,14 @@ page-chaine-9 .button-rec {
   display: none;
   --overflow: hidden;
   overflow: hidden;
+}
+
+.like-button-red {
+  display: none;
+}
+
+.like-button-white {
+  display: block;
 }
 
 page-chaine-rec {
@@ -26459,12 +26467,13 @@ page-homepage-radio .radio-search {
   border-radius: 20px;
   background: url(/Users/emericbayard/Desktop/Webradio/ApplicationMobile/client/src/assets/loupe.svg) no-repeat scroll 7px 7px;
   padding-left: 30px;
-  background-color: lightgray;
-  color: grey;
+  background-color: whitesmoke;
+  color: lightgrey;
 }
 
 page-homepage-radio .title-radio {
   margin-top: 7%;
+  margin-left: 17%;
 }
 
 page-homepage-radio .radio-name {
@@ -26565,8 +26574,8 @@ page-login .form {
 }
 
 page-login .email-form {
-  width: 204px;
-  height: 28,5px;
+  width: 174px;
+  height: 28.5px;
   margin-top: 22px;
   border-radius: 30px;
   margin-top: 40%;
@@ -26576,8 +26585,8 @@ page-login .email-form {
 }
 
 page-login .password-form {
-  width: 204px;
-  height: 28,5px;
+  width: 174px;
+  height: 28.5px;
   margin-top: 22px;
   border-radius: 30px;
   border: solid grey 0.5px;
@@ -26612,7 +26621,7 @@ page-login .logo-container {
 }
 
 page-login .id-subscribe {
-  width: 204px;
+  width: 174px;
   height: 28px;
   margin-top: 30%;
   border-radius: 30px;
@@ -26760,8 +26769,8 @@ page-login-1 .form {
 }
 
 page-login-1 .email-form {
-  width: 204px;
-  height: 28,5px;
+  width: 174px;
+  height: 28.5px;
   margin-top: 22px;
   border-radius: 30px;
   margin-top: 40%;
@@ -26771,8 +26780,8 @@ page-login-1 .email-form {
 }
 
 page-login-1 .password-form {
-  width: 204px;
-  height: 28,5px;
+  width: 174px;
+  height: 28.5px;
   margin-top: 22px;
   border-radius: 30px;
   border: solid grey 0.5px;
@@ -27077,6 +27086,242 @@ page-notification .footer .radio1-icon {
   margin-left: 20%;
 }
 
+page-password-change {
+  background-color: white;
+  /* Shared */
+  /* Facebook */
+}
+
+page-password-change ::-webkit-input-placeholder {
+  color: lightgrey;
+  font-size: 13px;
+}
+
+page-password-change ::-moz-placeholder {
+  color: lightgrey;
+  font-size: 13px;
+}
+
+page-password-change ::-ms-input-placeholder {
+  color: lightgrey;
+  font-size: 13px;
+}
+
+page-password-change ::placeholder {
+  color: lightgrey;
+  font-size: 13px;
+}
+
+@font-face {
+  page-password-change {
+    font-family: "PT Sans";
+    src: url(https://fonts.googleapis.com/css?family=PT+Sans&display=swap);
+  }
+}
+
+page-password-change .container {
+  width: 217px;
+  height: 420px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 70%;
+}
+
+page-password-change .form {
+  border-radius: 30px;
+  border: solid grey 0.5px;
+  color: lightgrey;
+  text-align: center;
+  width: 217px;
+  height: 378.75px;
+}
+
+page-password-change .email-form {
+  width: 174px;
+  height: 28.5px;
+  margin-top: 22px;
+  border-radius: 30px;
+  margin-top: 40%;
+  border: solid grey 0.5px;
+  color: lightgrey;
+  text-align: center;
+}
+
+page-password-change .email-form-2 {
+  width: 174px;
+  height: 28.5px;
+  margin-top: 22px;
+  border-radius: 30px;
+  margin-top: 10%;
+  border: solid grey 0.5px;
+  color: lightgrey;
+  text-align: center;
+}
+
+page-password-change .email-form-3 {
+  width: 174px;
+  height: 28.5px;
+  margin-top: 22px;
+  border-radius: 30px;
+  margin-top: 10%;
+  border: solid grey 0.5px;
+  color: lightgrey;
+  text-align: center;
+}
+
+page-password-change .password-form {
+  width: 174px;
+  height: 28.5px;
+  margin-top: 22px;
+  border-radius: 30px;
+  border: solid grey 0.5px;
+  color: lightgrey;
+  text-align: center;
+}
+
+page-password-change .form-control {
+  border-radius: 30px;
+  border: solid grey 0.5px;
+  color: lightgrey;
+  text-align: center;
+}
+
+page-password-change .logo {
+  margin-top: 25px;
+  position: absolute;
+  top: -6px;
+  left: 14px;
+}
+
+page-password-change .logo-container {
+  position: relative;
+  top: 42px;
+  left: 6px;
+  border-radius: 50%;
+  margin-left: 30%;
+  width: 80px;
+  height: 80px;
+  border: solid grey 0.5px;
+  background-color: white;
+}
+
+page-password-change .id-subscribe {
+  width: 174px;
+  height: 28px;
+  margin-top: 30%;
+  border-radius: 30px;
+  text-align: center;
+  background-color: #EF0051;
+  color: white;
+}
+
+page-password-change .id-infos {
+  margin-top: 40%;
+  color: grey;
+  font-size: 14px;
+}
+
+page-password-change .id-facebook {
+  width: 232px;
+  height: 38px;
+  margin-top: 15px;
+  border-radius: 30px;
+  border: solid grey 0.5px;
+  color: lightgrey;
+  text-align: center;
+  background-color: blue;
+  color: white;
+}
+
+page-password-change body {
+  padding: 2em;
+}
+
+page-password-change .loginBtn {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  position: relative;
+  /* width: 13em;  - apply for fixed size */
+  margin: 0.2em;
+  padding: 0 15px 0 46px;
+  border: none;
+  text-align: left;
+  line-height: 34px;
+  white-space: nowrap;
+  border-radius: 0.2em;
+  font-size: 16px;
+  color: #FFF;
+}
+
+page-password-change .loginBtn:before {
+  content: "";
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 34px;
+  height: 100%;
+}
+
+page-password-change .loginBtn:focus {
+  outline: none;
+}
+
+page-password-change .loginBtn:active {
+  -webkit-box-shadow: inset 0 0 0 32px rgba(0, 0, 0, 0.1);
+  box-shadow: inset 0 0 0 32px rgba(0, 0, 0, 0.1);
+}
+
+page-password-change .loginBtn--facebook {
+  background-color: #4C69BA;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#4C69BA), to(#3B55A0));
+  background-image: linear-gradient(#4C69BA, #3B55A0);
+  /*font-family: "Helvetica neue", Helvetica Neue, Helvetica, Arial, sans-serif;*/
+  text-shadow: 0 -1px 0 #354C8C;
+}
+
+page-password-change .loginBtn--facebook:before {
+  border-right: #364e92 1px solid;
+  background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/14082/icon_facebook.png") 6px 6px no-repeat;
+}
+
+page-password-change .loginBtn--facebook:hover,
+page-password-change .loginBtn--facebook:focus {
+  background-color: #5B7BD5;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#5B7BD5), to(#4864B1));
+  background-image: linear-gradient(#5B7BD5, #4864B1);
+}
+
+page-password-change .already-account {
+  color: grey;
+  position: relative;
+  top: 10px;
+  display: inline;
+  font-size: 12px;
+}
+
+page-password-change .already-account-link {
+  color: #EF0051;
+  text-decoration: none;
+}
+
+page-password-change .back_link_button {
+  background-color: rgba(255, 255, 255, 0);
+  margin-top: 5%;
+}
+
+page-password-change .button-home {
+  margin-left: -5%;
+  margin-right: 15%;
+}
+
+page-password-change .header {
+  background-color: rgba(255, 255, 255, 0);
+  padding-top: 9%;
+}
+
 page-radio-rec-1 {
   background-color: white;
 }
@@ -27166,6 +27411,14 @@ page-radio-rec-1 .nb-ecoute {
   overflow: hidden;
 }
 
+.like-button-red {
+  display: none;
+}
+
+.like-button-white {
+  display: block;
+}
+
 page-radio-subscribe {
   background-color: white;
 }
@@ -27243,6 +27496,14 @@ page-radio-subscribe .button-rec {
   overflow: hidden;
 }
 
+.like-button-red {
+  display: none;
+}
+
+.like-button-red {
+  display: block;
+}
+
 page-register {
   background-color: white;
   /* Shared */
@@ -27295,8 +27556,8 @@ page-register .form {
 }
 
 page-register .id-form {
-  width: 204px;
-  height: 28,5px;
+  width: 174px;
+  height: 28.5px;
   margin-top: 40%;
   border-radius: 30px;
   border: solid grey 0.5px;
@@ -27305,8 +27566,8 @@ page-register .id-form {
 }
 
 page-register .email-form {
-  width: 204px;
-  height: 28,5px;
+  width: 174px;
+  height: 28.5px;
   margin-top: 22px;
   border-radius: 30px;
   border: solid grey 0.5px;
@@ -27315,8 +27576,8 @@ page-register .email-form {
 }
 
 page-register .password-form {
-  width: 204px;
-  height: 28,5px;
+  width: 174px;
+  height: 28.5px;
   margin-top: 22px;
   border-radius: 30px;
   border: solid grey 0.5px;
@@ -27351,7 +27612,7 @@ page-register .logo-container {
 }
 
 page-register .id-subscribe {
-  width: 204px;
+  width: 174px;
   height: 28px;
   margin-top: 30%;
   border-radius: 30px;

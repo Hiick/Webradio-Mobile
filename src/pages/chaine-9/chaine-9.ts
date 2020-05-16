@@ -56,4 +56,9 @@ export class Chaine_9Page {
   public goToNotification() {
     this.navCtrl.setRoot(NotificationPage)
   }
+
+  public addFavoritee() {
+    document.getElementById("like-button-red").style.display = "block";
+    document.getElementById("like-button-white").style.display = "none";
+  }
 }
