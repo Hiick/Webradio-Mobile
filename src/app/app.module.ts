@@ -14,14 +14,14 @@ import { SocialLoginModule, AuthServiceConfig, FacebookLoginProvider } from 'ang
 //ENDFB
 
 //Observable
+import { Observable } from 'rxjs';
+import { catchError, retry } from 'rxjs/operators';
 //import { Observable } from 'rxjs';
 //import { catchError, retry } from 'rxjs/operators';
 
 //ROUTING
 
 //import { AppRoutingModule } from '../../routing-app/src/app/app-routing.module';
-
-
 import { AboutPage } from '../pages/about/about';
 import { ContactPage } from '../pages/contact/contact';
 import { HomePage } from '../pages/home/home';
@@ -52,6 +52,15 @@ export function provideConfig() {
 }
 //ENDFB
 
+
+//ROUTING
+//import { RouterModule, Routes } from '@angular/router';
+import { AccountSettingsPage } from '../pages/account-settings/account-settings';
+import { Chaine_1Page } from '../pages/chaine-1/chaine-1';
+import { RadioRec_1Page } from '../pages/radio-rec-1/radio-rec-1';
+import { NotificationPage } from '../pages/notification/notification';
+
+// sets up routes constant where you define your routes
 @NgModule({
   declarations: [
     MyApp,
@@ -67,7 +76,11 @@ export function provideConfig() {
     HomepageRadioPage,
     HomepageChainePage,
     Chaine_9Page,
-    ChaineRecPage
+    ChaineRecPage,
+    AccountSettingsPage,
+    Chaine_1Page,
+    RadioRec_1Page,
+    NotificationPage
   ],
   imports: [
     BrowserModule,
@@ -93,7 +106,11 @@ export function provideConfig() {
     HomepageRadioPage,
     HomepageChainePage,
     Chaine_9Page,
-    ChaineRecPage
+    ChaineRecPage,
+    AccountSettingsPage,
+    Chaine_1Page,
+    RadioRec_1Page,
+    NotificationPage
   ],
   providers: [
     StatusBar,
@@ -103,7 +120,6 @@ export function provideConfig() {
       provide: AuthServiceConfig,
       useFactory: provideConfig
     }
-
-  ]
+  ],
 })
 export class AppModule {}

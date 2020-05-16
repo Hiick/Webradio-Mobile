@@ -1,6 +1,11 @@
+import { HomepageRadioPage } from './../homepage-radio/homepage-radio';
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import {RegisterPage} from "../register/register";
+import { Login_1Page } from '../login-1/login-1';
+import { NotificationPage } from '../notification/notification';
+
+
 
 /**
  * Generated class for the LoginPage page.
@@ -23,8 +28,20 @@ export class LoginPage {
     console.log('ionViewDidLoad LoginPage');
   }
 
+
   public goToRegister() {
     this.navCtrl.setRoot(RegisterPage)
   }
 
+  public goToLogin1() {
+    this.navCtrl.setRoot(Login_1Page)
+  }
+
+  public goToHomePage() {
+    this.navCtrl.setRoot(HomepageRadioPage)
+  }
+
+  public goToNotification() {
+    this.navCtrl.setRoot(NotificationPage)
+  }
 }

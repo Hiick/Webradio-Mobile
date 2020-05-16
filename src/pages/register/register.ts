@@ -7,8 +7,10 @@ import { HttpClient } from '@angular/common/http';
 //FB
 import { AuthService, FacebookLoginProvider, SocialUser } from 'angularx-social-login';
 import {LoginPage} from "../login/login";
+
 //import { Response } from '@angular/http';//Headers RequestOptions
 //import { map } from 'rxjs/operators';
+import { NotificationPage } from '../notification/notification';
 
 
 /**
@@ -28,7 +30,6 @@ export class RegisterPage implements OnInit {
   loggedIn: boolean = false;
   //FB
   user: SocialUser;
-
   //ENDFB
   constructor(public navCtrl: NavController, public navParams: NavParams, private http: HttpClient, private authService: AuthService) {
   }
@@ -47,7 +48,6 @@ export class RegisterPage implements OnInit {
   signInWithFB(): void {
     this.authService.signIn(FacebookLoginProvider.PROVIDER_ID);
   }
-
   signOut(): void {
     this.authService.signOut();
   }
@@ -64,5 +64,7 @@ export class RegisterPage implements OnInit {
     this.navCtrl.setRoot(LoginPage)
   }
 
-
+  public goToNotification() {
+    this.navCtrl.setRoot(NotificationPage)
+  }
 }

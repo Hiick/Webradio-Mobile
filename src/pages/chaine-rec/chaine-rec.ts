@@ -1,5 +1,13 @@
+import { HomepageRadioPage } from './../homepage-radio/homepage-radio';
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { Chaine_9Page } from '../chaine-9/chaine-9';
+import { AccountPage } from '../account/account';
+import { LoginPage } from '../login/login';
+import { HomePage } from '../home/home';
+import { AccountSettingsPage } from '../account-settings/account-settings';
+import { NotificationPage } from '../notification/notification';
+
 
 /**
  * Generated class for the ChaineRecPage page.
@@ -21,5 +29,27 @@ export class ChaineRecPage {
   ionViewDidLoad() {
     console.log('ionViewDidLoad ChaineRecPage');
   }
+  public goToHomepage() {
+    this.navCtrl.setRoot(HomepageRadioPage)
+  }
 
+  public goToLogin() {
+    this.navCtrl.setRoot(LoginPage)
+  }
+
+  public goToAccountSettings() {
+    this.navCtrl.setRoot(AccountPage)
+  }
+
+  public goToChaine9() {
+    this.navCtrl.setRoot(Chaine_9Page)
+  }
+
+  public goToAccount() {
+    this.navCtrl.setRoot(AccountSettingsPage)
+  }
+
+  public goToNotification() {
+    this.navCtrl.setRoot(NotificationPage)
+  }
 }
