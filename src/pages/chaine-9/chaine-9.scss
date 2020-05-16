@@ -4,21 +4,32 @@ page-chaine-9 {
         padding-top: 9%;
         //border: none;
     }
-    
+    .header-ios {
+        display: flex;
+        background-color: white;
+        flex-direction: row;
+        align-items: center;
+        position: absolute;
+        top: 2%;
+    }
+    tspan {
+        font-size: 16px;
+    }
+
     .ion-content {
         --overflow: hidden;
         overflow: hidden;
+        text-align: center;
     }
 
     .delete-button {
         margin-top: 3%;
-        margin-left: 27%;
         color: #EF0051;
         font-size: 1.0em;
     }
 
     background-color:rgb(255, 255, 255);
-    
+
     .header-radio {
         background-color:rgba(255, 255, 255, 0.0);
     }
@@ -28,9 +39,8 @@ page-chaine-9 {
 
     .radio-icon {
         margin-top: 10%;
-        margin-left: 20%;
 
-        
+
         .button-start-stop {
             position: absolute;
             top: 30%;
@@ -44,7 +54,7 @@ page-chaine-9 {
             border: none;
             cursor: pointer;
             border-radius: 5px;
-            
+
         }
     }
 
@@ -62,8 +72,8 @@ page-chaine-9 {
 
     .seekbar {
         margin-top: 12%;
-        margin-left: -12%;
-        
+        margin-left: -20%;
+
 
     }
 
@@ -74,7 +84,19 @@ page-chaine-9 {
 
     .button-rec {
         margin-right: auto;
-        margin-left: 24%;
+    }
+
+    .v1 {
+        display: flex;
+    }
+
+    .v2 {
+        display: flex;
+    }
+
+    h5 {
+        margin: auto;
+        margin-left: 5%;
     }
 }
 
