@@ -30,6 +30,7 @@ page-notification {
     .ion-content {
         --overflow: hidden;
         overflow: hidden;
+        text-align: center;
     }
 
     .id-subscribe {
@@ -53,7 +54,7 @@ page-notification {
     }
 
     background-color:rgb(255, 255, 255);
-    
+
     .header-radio {
         background-color:rgba(255, 255, 255, 0.0);
     }
@@ -70,7 +71,7 @@ page-notification {
     .seekbar {
         margin-top: 12%;
         margin-left: -12%;
-        
+
 
     }
 
@@ -83,7 +84,7 @@ page-notification {
         margin-left: 40%;
         margin-right: -3%;
     }
-    
+
     .profil-button {
         margin-right: -35%;
     }
@@ -109,7 +110,7 @@ page-notification {
         margin-top: 7%;
         font-size: 0.7em;
         margin-left: 7%;
-        
+
     }
     .radio-name {
         font-size: 0.6em;
@@ -129,8 +130,8 @@ page-notification {
         color: black;
         margin-left: 32%;
     }
-    
-    
+
+
 
     .footer {
         position: fixed;
@@ -139,17 +140,17 @@ page-notification {
         border-top: solid grey 0.5px;
         min-height: 4em;
         background-color: white;
-        
+
         height: auto;
 
         .radio1-icon {
             margin-top: 5%;
             margin-left: 20%;
             margin-right: 30%;
-            
+
         }
-    
-    
+
+
     }
 }
 
@@ -158,9 +159,4 @@ page-notification {
   display: none;
   --overflow: hidden;
   overflow: hidden;
-}
-
-.no-notif {
-    margin-left: 20%;
-
 }

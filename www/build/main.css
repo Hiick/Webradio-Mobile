@@ -25705,13 +25705,23 @@ page-account {
   background-color: white;
 }
 
-page-account .ion-header {
-  margin-top: 10%;
-  background-color: rgba(255, 255, 255, 0);
-  padding-top: 9%;
-  border: none;
-  -webkit-box-shadow: none;
-  box-shadow: none;
+page-account .header-ios {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: white;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: absolute;
+  top: 7%;
 }
 
 page-account .account-icon {
@@ -25727,7 +25737,7 @@ page-account .edit-icon {
 page-account .name-form {
   margin-left: 21%;
   width: 174px;
-  height: 28,5px;
+  height: 28.5px;
   margin-top: 22px;
   border-radius: 30px;
   margin-top: 40%;
@@ -25778,7 +25788,11 @@ page-account .button-home {
 }
 
 page-account .bell-button {
-  margin-left: 18%;
+  margin-left: 30%;
+}
+
+page-account tspan {
+  font-size: 16px;
 }
 
 page-account .id-line {
@@ -25831,6 +25845,23 @@ page-account-settings .name-form {
 page-account-settings .ion-content {
   --overflow: hidden;
   overflow: hidden;
+  text-align: center;
+}
+
+page-account-settings .parms-chaine {
+  margin-bottom: 25px;
+}
+
+page-account-settings .parms-profil {
+  margin-bottom: 25px;
+}
+
+page-account-settings .change-pwd {
+  margin-bottom: 25px;
+}
+
+page-account-settings .sub-stream {
+  margin-bottom: 25px;
 }
 
 page-account-settings .id-subscribe {
@@ -25854,13 +25885,13 @@ page-account-settings .back_link_button {
 }
 
 page-account-settings .delete-button {
-  margin-top: 0%;
-  margin-left: 38%;
+  color: #EF0051;
   color: #EF0051;
 }
 
 page-account-settings .seekbar {
   margin-top: 12%;
+  margin-left: -12%;
   margin-left: -12%;
 }
 
@@ -25870,30 +25901,56 @@ page-account-settings .button-home {
 }
 
 page-account-settings .bell-button {
-  margin-left: 0%;
+  margin-left: 15%;
+}
+
+page-account-settings tspan {
+  font-size: 16px;
 }
 
 page-account-settings .id-line {
   color: grey;
-  margin-left: 21%;
 }
 
-page-account-settings .sub-stream {
-  margin-left: 22%;
+page-account-settings .header-ios {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: white;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: absolute;
+  top: 3%;
 }
 
-page-account-settings .change-pwd {
-  margin-left: 22%;
-  margin-bottom: 55%;
+page-account-settings hr {
+  border: 0.1px solid black;
+  width: 70%;
+  margin-bottom: 25px;
 }
 
-page-account-settings .parms-profil {
-  margin-left: 22%;
-}
-
-page-account-settings .parms-chaine {
-  margin-top: 50%;
-  margin-left: 22%;
+page-account-settings .scroll-content {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 ::-webkit-scrollbar,
@@ -25907,13 +25964,31 @@ page-chaine-1 {
   background-color: white;
 }
 
-page-chaine-1 .ion-header {
-  margin-top: 1%;
-  background-color: rgba(255, 255, 255, 0);
-  padding-top: 9%;
-  border: none;
-  -webkit-box-shadow: none;
-  box-shadow: none;
+page-chaine-1 .header-ios {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: white;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: absolute;
+  top: 7%;
+}
+
+page-chaine-1 .ion-content {
+  text-align: center;
+}
+
+page-chaine-1 tspan {
+  font-size: 16px;
 }
 
 page-chaine-1 .account-icon {
@@ -25965,14 +26040,31 @@ page-chaine-1 .back_link_button {
 
 page-chaine-1 .delete-button {
   margin-top: 40%;
-  margin-left: 30%;
   font-size: 18px;
   color: #EF0051;
 }
 
+page-chaine-1 .select {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 85%;
+  height: 3em;
+  line-height: 3;
+  overflow: hidden;
+  border-radius: .25em;
+  margin: auto;
+  text-align: center;
+}
+
+page-chaine-1 #format {
+  width: 100%;
+}
+
 page-chaine-1 .delete-button-end {
   margin-top: 0%;
-  margin-left: 30%;
   font-size: 18px;
   color: #EF0051;
 }
@@ -25994,7 +26086,6 @@ page-chaine-1 .bell-button {
 page-chaine-1 .id-line {
   color: grey;
   margin-top: 75%;
-  margin-left: 17%;
 }
 
 page-chaine-1 .sub-stream {
@@ -26006,14 +26097,8 @@ page-chaine-1 .change-pwd {
   margin-bottom: 55%;
 }
 
-page-chaine-1 .parms-profil {
-  margin-left: 18%;
-}
-
 page-chaine-1 .parms-chaine {
   margin-top: 10%;
-  margin-right: 10%;
-  margin-left: 18%;
 }
 
 ::-webkit-scrollbar,
@@ -26032,14 +26117,37 @@ page-chaine-9 .header {
   padding-top: 9%;
 }
 
+page-chaine-9 .header-ios {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: white;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: absolute;
+  top: 2%;
+}
+
+page-chaine-9 tspan {
+  font-size: 16px;
+}
+
 page-chaine-9 .ion-content {
   --overflow: hidden;
   overflow: hidden;
+  text-align: center;
 }
 
 page-chaine-9 .delete-button {
   margin-top: 3%;
-  margin-left: 27%;
   color: #EF0051;
   font-size: 1.0em;
 }
@@ -26054,7 +26162,6 @@ page-chaine-9 .back_link_button {
 
 page-chaine-9 .radio-icon {
   margin-top: 10%;
-  margin-left: 20%;
 }
 
 page-chaine-9 .radio-icon .button-start-stop {
@@ -26088,7 +26195,7 @@ page-chaine-9 .radio-infos .radio-title {
 
 page-chaine-9 .seekbar {
   margin-top: 12%;
-  margin-left: -12%;
+  margin-left: -20%;
 }
 
 page-chaine-9 .button-home {
@@ -26098,7 +26205,25 @@ page-chaine-9 .button-home {
 
 page-chaine-9 .button-rec {
   margin-right: auto;
-  margin-left: 24%;
+}
+
+page-chaine-9 .v1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+page-chaine-9 .v2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+page-chaine-9 h5 {
+  margin: auto;
+  margin-left: 5%;
 }
 
 ::-webkit-scrollbar,
@@ -26125,6 +26250,10 @@ page-chaine-rec .header {
   padding-top: 9%;
 }
 
+page-chaine-rec tspan {
+  font-size: 16px;
+}
+
 page-chaine-rec .profil-button {
   margin-left: 10%;
 }
@@ -26136,10 +26265,6 @@ page-chaine-rec .ion-content {
 
 page-chaine-rec .number-listener {
   margin-left: 30%;
-}
-
-page-chaine-rec .mic-button {
-  margin-left: 38%;
 }
 
 page-chaine-rec .delete-button {
@@ -26178,17 +26303,10 @@ page-chaine-rec .radio-icon .button-start-stop {
   border-radius: 5px;
 }
 
-page-chaine-rec .radio-infos {
-  margin-top: 3%;
-}
-
-page-chaine-rec .radio-infos .like-button {
-  margin-left: 65%;
-}
-
 page-chaine-rec .radio-infos .radio-title {
   position: fixed;
   margin-left: -55%;
+  text-align: center;
 }
 
 page-chaine-rec .seekbar {
@@ -26220,7 +26338,7 @@ page-homepage-chaine {
 
 page-homepage-chaine .ion-header {
   margin-top: 1%;
-  background-color: rgba(255, 255, 255, 0);
+  background-color: white;
   padding-top: 9%;
   border: none;
   -webkit-box-shadow: none;
@@ -26286,14 +26404,13 @@ page-homepage-chaine .seekbar {
 }
 
 page-homepage-chaine .logo {
-  margin-top: 15%;
   margin-left: 40%;
   margin-right: -33%;
 }
 
 page-homepage-chaine .bell-button {
   margin-left: 40%;
-  margin-right: -3%;
+  margin-right: -2%;
 }
 
 page-homepage-chaine .profil-button {
@@ -26306,21 +26423,25 @@ page-homepage-chaine .id-line {
 }
 
 page-homepage-chaine .radio-search {
-  width: 95%;
+  width: 80%;
+  height: 35px;
   margin-top: 13%;
   margin-left: 3%;
   border-radius: 20px;
-  background: url(/Users/emericbayard/Desktop/Webradio/ApplicationMobile/client/src/assets/loupe.svg) no-repeat scroll 7px 7px;
   padding-left: 30px;
   background-color: whitesmoke;
   color: lightgrey;
-  font-size: 0.8em;
+}
+
+page-homepage-chaine .scroll-content {
+  text-align: center;
 }
 
 page-homepage-chaine .title-radio {
   margin-top: 7%;
   font-size: 0.7em;
-  margin-left: 7%;
+  margin-left: 12%;
+  text-align: left;
 }
 
 page-homepage-chaine .radio-name {
@@ -26331,9 +26452,49 @@ page-homepage-chaine .radio-name {
   margin-bottom: 0%;
 }
 
+page-homepage-chaine .label-ios {
+  margin: 0;
+}
+
+page-homepage-chaine .header-ios {
+  background-color: white;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: absolute;
+  top: 7%;
+}
+
+page-homepage-chaine .ion-header {
+  background-color: white;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
 page-homepage-chaine .play-icon {
   margin-left: 67%;
-  margin-top: -22%;
+  margin-top: -18%;
 }
 
 page-homepage-chaine .radio-ecoute {
@@ -26375,7 +26536,7 @@ page-homepage-radio {
 
 page-homepage-radio .ion-header {
   margin-top: 1%;
-  background-color: rgba(255, 255, 255, 0);
+  background-color: white;
   padding-top: 9%;
   border: none;
   -webkit-box-shadow: none;
@@ -26440,15 +26601,37 @@ page-homepage-radio .seekbar {
   margin-left: -12%;
 }
 
+page-homepage-radio .header-ios {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: white;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: absolute;
+  top: 7%;
+}
+
+page-homepage-radio .label-ios {
+  margin: 0;
+}
+
 page-homepage-radio .logo {
-  margin-top: 15%;
   margin-left: 40%;
   margin-right: -33%;
 }
 
 page-homepage-radio .bell-button {
   margin-left: 40%;
-  margin-right: -3%;
+  margin-right: -2%;
 }
 
 page-homepage-radio .profil-button {
@@ -26461,19 +26644,25 @@ page-homepage-radio .id-line {
 }
 
 page-homepage-radio .radio-search {
-  width: 95%;
+  width: 80%;
+  height: 35px;
   margin-top: 13%;
   margin-left: 3%;
   border-radius: 20px;
-  background: url(/Users/emericbayard/Desktop/Webradio/ApplicationMobile/client/src/assets/loupe.svg) no-repeat scroll 7px 7px;
   padding-left: 30px;
   background-color: whitesmoke;
   color: lightgrey;
 }
 
+page-homepage-radio .scroll-content {
+  text-align: center;
+}
+
 page-homepage-radio .title-radio {
   margin-top: 7%;
-  margin-left: 17%;
+  font-size: 0.7em;
+  margin-left: 12%;
+  text-align: left;
 }
 
 page-homepage-radio .radio-name {
@@ -26486,7 +26675,7 @@ page-homepage-radio .radio-name {
 
 page-homepage-radio .play-icon {
   margin-left: 67%;
-  margin-top: -22%;
+  margin-top: -18%;
 }
 
 page-homepage-radio .radio-ecoute {
@@ -26969,6 +27158,7 @@ page-notification .name-form {
 page-notification .ion-content {
   --overflow: hidden;
   overflow: hidden;
+  text-align: center;
 }
 
 page-notification .id-subscribe {
@@ -27082,10 +27272,6 @@ page-notification .footer .radio1-icon {
   overflow: hidden;
 }
 
-.no-notif {
-  margin-left: 20%;
-}
-
 page-password-change {
   background-color: white;
   /* Shared */
@@ -27110,6 +27296,10 @@ page-password-change ::-ms-input-placeholder {
 page-password-change ::placeholder {
   color: lightgrey;
   font-size: 13px;
+}
+
+page-password-change tspan {
+  font-size: 16px;
 }
 
 @font-face {
@@ -27219,7 +27409,7 @@ page-password-change .id-subscribe {
 page-password-change .id-infos {
   margin-top: 40%;
   color: grey;
-  font-size: 14px;
+  font-size: 12px;
 }
 
 page-password-change .id-facebook {
@@ -27315,6 +27505,8 @@ page-password-change .back_link_button {
 page-password-change .button-home {
   margin-left: -5%;
   margin-right: 15%;
+  margin-bottom: 10%;
+  background-color: transparent;
 }
 
 page-password-change .header {
@@ -27329,6 +27521,10 @@ page-radio-rec-1 {
 page-radio-rec-1 .header {
   background-color: rgba(255, 255, 255, 0);
   padding-top: 9%;
+}
+
+page-radio-rec-1 tspan {
+  font-size: 16px;
 }
 
 page-radio-rec-1 .ion-content {
@@ -27351,11 +27547,6 @@ page-radio-rec-1 .back_link_button {
   background-color: rgba(255, 255, 255, 0);
 }
 
-page-radio-rec-1 .radio-icon {
-  margin-top: 10%;
-  margin-left: 10%;
-}
-
 page-radio-rec-1 .radio-icon .button-start-stop {
   position: absolute;
   top: 30%;
@@ -27373,21 +27564,56 @@ page-radio-rec-1 .radio-icon .button-start-stop {
 }
 
 page-radio-rec-1 .radio-infos {
-  margin-top: 3%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
 }
 
-page-radio-rec-1 .radio-infos .like-button {
-  margin-left: 65%;
+page-radio-rec-1 .ion-content {
+  text-align: center;
 }
 
-page-radio-rec-1 .radio-infos .radio-title {
-  position: fixed;
-  margin-left: -55%;
+page-radio-rec-1 .radio-title {
+  margin-right: 5%;
+  margin-left: 19%;
 }
 
 page-radio-rec-1 .seekbar {
   margin-top: 12%;
-  margin-left: -12%;
+  margin-left: -20%;
+}
+
+page-radio-rec-1 .header-ios {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: white;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: absolute;
+  top: 2%;
 }
 
 page-radio-rec-1 .button-home {
@@ -27397,11 +27623,6 @@ page-radio-rec-1 .button-home {
 
 page-radio-rec-1 .button-rec {
   margin-right: auto;
-  margin-left: 24%;
-}
-
-page-radio-rec-1 .nb-ecoute {
-  margin-left: 30%;
 }
 
 ::-webkit-scrollbar,
@@ -27498,10 +27719,6 @@ page-radio-subscribe .button-rec {
 
 .like-button-red {
   display: none;
-}
-
-.like-button-red {
-  display: block;
 }
 
 page-register {

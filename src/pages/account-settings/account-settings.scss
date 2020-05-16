@@ -30,6 +30,23 @@ page-account-settings {
     .ion-content {
         --overflow: hidden;
         overflow: hidden;
+        text-align: center;
+    }
+
+    .parms-chaine {
+        margin-bottom: 25px
+    }
+
+    .parms-profil {
+        margin-bottom: 25px
+    }
+
+    .change-pwd {
+        margin-bottom: 25px
+    }
+
+    .sub-stream {
+        margin-bottom: 25px
     }
 
     .id-subscribe {
@@ -53,7 +70,7 @@ page-account-settings {
     }
 
     background-color:rgb(255, 255, 255);
-    
+
     .header-radio {
         background-color:rgba(255, 255, 255, 0.0);
     }
@@ -62,15 +79,15 @@ page-account-settings {
     }
 
     .delete-button {
-        margin-top: 0%;
-        margin-left: 38%;
+        color: #EF0051;
         color: #EF0051;
     }
 
     .seekbar {
         margin-top: 12%;
         margin-left: -12%;
-        
+        margin-left: -12%;
+
 
     }
 
@@ -80,32 +97,37 @@ page-account-settings {
     }
 
     .bell-button {
-        margin-left: 0%;
-        
+        margin-left: 15%;
     }
-    
+
+    tspan {
+        font-size: 16px
+    }
+
     .id-line {
         color: grey;
-        margin-left: 21%;
+    }
+    .header-ios {
+        display: flex;
+        background-color: white;
+        flex-direction: row;
+        align-items: center;
+        position: absolute;
+        top: 3%;
+    }
+    hr {
+        border: 0.1px solid black;
+        width: 70%;
+        margin-bottom: 25px;
     }
 
-    .sub-stream {
-        margin-left: 22%;
+    .scroll-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
 
-    .change-pwd {
-        margin-left: 22%;
-        margin-bottom: 55%;
-    }
 
-    .parms-profil {
-        margin-left: 22%;
-    }
-
-    .parms-chaine {
-        margin-top: 50%;
-        margin-left: 22%;
-    }
 }
 
 ::-webkit-scrollbar,

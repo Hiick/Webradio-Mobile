@@ -4,6 +4,9 @@ page-chaine-rec {
         padding-top: 9%;
         //border: none;
     }
+    tspan {
+        font-size: 16px;
+    }
     .profil-button {
         margin-left: 10%;
     }
@@ -16,9 +19,6 @@ page-chaine-rec {
     .number-listener {
         margin-left: 30%;
     }
-    .mic-button {
-        margin-left: 38%;
-    }
     .delete-button {
         margin-top: 3%;
         margin-left: 27%;
@@ -27,7 +27,7 @@ page-chaine-rec {
     }
 
     background-color:rgb(255, 255, 255);
-    
+
     .header-radio {
         background-color:rgba(255, 255, 255, 0.0);
     }
@@ -39,7 +39,7 @@ page-chaine-rec {
         margin-top: 10%;
         margin-left: 20%;
 
-        
+
         .button-start-stop {
             position: absolute;
             top: 36%;
@@ -53,26 +53,23 @@ page-chaine-rec {
             border: none;
             cursor: pointer;
             border-radius: 5px;
-            
+
         }
     }
 
     .radio-infos {
-        .like-button {
-            margin-left: 65%;
-        }
         .radio-title {
             position: fixed;
             margin-left: -55%;
             //display: inline-block;
+            text-align: center;
         }
-        margin-top: 3%;
     }
 
     .seekbar {
         margin-top: 12%;
         margin-left: -12%;
-        
+
 
     }
 
@@ -83,7 +80,7 @@ page-chaine-rec {
     }
 
     .button-rec {
-        
+
         margin-right: auto;
         margin-left: 24%;
     }

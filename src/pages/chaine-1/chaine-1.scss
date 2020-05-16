@@ -1,10 +1,17 @@
 page-chaine-1 {
-    .ion-header {
-        margin-top: 1%;
-        background-color:rgba(255, 255, 255, 0.0);
-        padding-top: 9%;
-        border: none;
-        box-shadow: none;
+    .header-ios {
+        display: flex;
+        background-color: white;
+        flex-direction: row;
+        align-items: center;
+        position: absolute;
+        top: 7%;
+    }
+    .ion-content {
+        text-align: center;
+    }
+    tspan {
+        font-size: 16px;
     }
     .account-icon {
         margin-top: 45%;
@@ -53,7 +60,7 @@ page-chaine-1 {
     }
 
     background-color:rgb(255, 255, 255);
-    
+
     .header-radio {
         background-color:rgba(255, 255, 255, 0.0);
     }
@@ -63,15 +70,29 @@ page-chaine-1 {
 
     .delete-button {
         margin-top: 40%;
-        margin-left: 30%;
         font-size: 18px;
         color: #EF0051;
 
     }
 
+    .select {
+        position: relative;
+        display: flex;
+        width: 85%;
+        height: 3em;
+        line-height: 3;
+        overflow: hidden;
+        border-radius: .25em;
+        margin: auto;
+        text-align: center;
+    }
+
+    #format {
+        width: 100%;
+    }
+
     .delete-button-end {
         margin-top: 0%;
-        margin-left: 30%;
         font-size: 18px;
         color: #EF0051;
 
@@ -80,7 +101,7 @@ page-chaine-1 {
     .seekbar {
         margin-top: 12%;
         margin-left: -12%;
-        
+
 
     }
 
@@ -91,13 +112,12 @@ page-chaine-1 {
 
     .bell-button {
         margin-left: 0%;
-        
+
     }
-    
+
     .id-line {
         color: grey;
         margin-top: 75%;
-        margin-left: 17%;
     }
 
     .sub-stream {
@@ -109,14 +129,9 @@ page-chaine-1 {
         margin-bottom: 55%;
     }
 
-    .parms-profil {
-        margin-left: 18%;
-    }
 
     .parms-chaine {
         margin-top: 10%;
-        margin-right: 10%;
-        margin-left: 18%;
     }
 }
 

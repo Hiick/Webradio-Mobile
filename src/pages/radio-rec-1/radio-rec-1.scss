@@ -4,7 +4,11 @@ page-radio-rec-1 {
         padding-top: 9%;
         //border: none;
     }
-    
+
+    tspan {
+        font-size: 16px;
+    }
+
     .ion-content {
         --overflow: hidden;
         overflow: hidden;
@@ -18,7 +22,7 @@ page-radio-rec-1 {
     }
 
     background-color:rgb(255, 255, 255);
-    
+
     .header-radio {
         background-color:rgba(255, 255, 255, 0.0);
     }
@@ -27,10 +31,8 @@ page-radio-rec-1 {
     }
 
     .radio-icon {
-        margin-top: 10%;
-        margin-left: 10%;
 
-        
+
         .button-start-stop {
             position: absolute;
             top: 30%;
@@ -44,29 +46,40 @@ page-radio-rec-1 {
             border: none;
             cursor: pointer;
             border-radius: 5px;
-            
+
         }
     }
 
     .radio-infos {
-        .like-button {
-            margin-left: 65%;
-        }
-        .radio-title {
-            position: fixed;
-            margin-left: -55%;
-            //display: inline-block;
-        }
-        margin-top: 3%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+    }
+
+    .ion-content {
+        text-align: center;
+    }
+
+    .radio-title {
+        margin-right: 5%;
+        margin-left: 19%;
     }
 
     .seekbar {
         margin-top: 12%;
-        margin-left: -12%;
-        
+        margin-left: -20%;
+
 
     }
-
+    .header-ios {
+        display: flex;
+        background-color: white;
+        flex-direction: row;
+        align-items: center;
+        position: absolute;
+        top: 2%;
+    }
     .button-home {
         margin-left: -5%;
         margin-right: 15%;
@@ -74,11 +87,6 @@ page-radio-rec-1 {
 
     .button-rec {
         margin-right: auto;
-        margin-left: 24%;
-    }
-
-    .nb-ecoute {
-        margin-left: 30%;
     }
 }
 
