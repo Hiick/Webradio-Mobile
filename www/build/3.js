@@ -1,14 +1,14 @@
 webpackJsonp([3],{
 
-/***/ 698:
+/***/ 700:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "NotificationPageModule", function() { return NotificationPageModule; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "PasswordChangePageModule", function() { return PasswordChangePageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(14);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__notification__ = __webpack_require__(22);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(12);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__password_change__ = __webpack_require__(158);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -18,23 +18,23 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-var NotificationPageModule = /** @class */ (function () {
-    function NotificationPageModule() {
+var PasswordChangePageModule = /** @class */ (function () {
+    function PasswordChangePageModule() {
     }
-    NotificationPageModule = __decorate([
+    PasswordChangePageModule = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
             declarations: [
-                __WEBPACK_IMPORTED_MODULE_2__notification__["a" /* NotificationPage */],
+                __WEBPACK_IMPORTED_MODULE_2__password_change__["a" /* PasswordChangePage */],
             ],
             imports: [
-                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__notification__["a" /* NotificationPage */]),
+                __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__password_change__["a" /* PasswordChangePage */]),
             ],
         })
-    ], NotificationPageModule);
-    return NotificationPageModule;
+    ], PasswordChangePageModule);
+    return PasswordChangePageModule;
 }());
 
-//# sourceMappingURL=notification.module.js.map
+//# sourceMappingURL=password-change.module.js.map
 
 /***/ })
 
