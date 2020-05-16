@@ -25706,7 +25706,7 @@ page-account {
 }
 
 page-account .ion-header {
-  margin-top: 1%;
+  margin-top: 10%;
   background-color: rgba(255, 255, 255, 0);
   padding-top: 9%;
   border: none;
@@ -25715,7 +25715,7 @@ page-account .ion-header {
 }
 
 page-account .account-icon {
-  margin-top: 45%;
+  margin-top: 30%;
   margin-left: 23%;
 }
 
@@ -25855,7 +25855,7 @@ page-account-settings .back_link_button {
 
 page-account-settings .delete-button {
   margin-top: 0%;
-  margin-left: 33%;
+  margin-left: 38%;
   color: #EF0051;
 }
 
@@ -25875,25 +25875,25 @@ page-account-settings .bell-button {
 
 page-account-settings .id-line {
   color: grey;
-  margin-left: 17%;
+  margin-left: 21%;
 }
 
 page-account-settings .sub-stream {
-  margin-left: 18%;
+  margin-left: 22%;
 }
 
 page-account-settings .change-pwd {
-  margin-left: 18%;
+  margin-left: 22%;
   margin-bottom: 55%;
 }
 
 page-account-settings .parms-profil {
-  margin-left: 18%;
+  margin-left: 22%;
 }
 
 page-account-settings .parms-chaine {
   margin-top: 50%;
-  margin-left: 18%;
+  margin-left: 22%;
 }
 
 ::-webkit-scrollbar,
@@ -26106,6 +26106,14 @@ page-chaine-9 .button-rec {
   display: none;
   --overflow: hidden;
   overflow: hidden;
+}
+
+.like-button-red {
+  display: none;
+}
+
+.like-button-white {
+  display: block;
 }
 
 page-chaine-rec {
@@ -26459,12 +26467,13 @@ page-homepage-radio .radio-search {
   border-radius: 20px;
   background: url(/Users/emericbayard/Desktop/Webradio/ApplicationMobile/client/src/assets/loupe.svg) no-repeat scroll 7px 7px;
   padding-left: 30px;
-  background-color: lightgray;
-  color: grey;
+  background-color: whitesmoke;
+  color: lightgrey;
 }
 
 page-homepage-radio .title-radio {
   margin-top: 7%;
+  margin-left: 17%;
 }
 
 page-homepage-radio .radio-name {
@@ -26565,8 +26574,8 @@ page-login .form {
 }
 
 page-login .email-form {
-  width: 204px;
-  height: 28,5px;
+  width: 174px;
+  height: 28.5px;
   margin-top: 22px;
   border-radius: 30px;
   margin-top: 40%;
@@ -26576,8 +26585,8 @@ page-login .email-form {
 }
 
 page-login .password-form {
-  width: 204px;
-  height: 28,5px;
+  width: 174px;
+  height: 28.5px;
   margin-top: 22px;
   border-radius: 30px;
   border: solid grey 0.5px;
@@ -26612,7 +26621,7 @@ page-login .logo-container {
 }
 
 page-login .id-subscribe {
-  width: 204px;
+  width: 174px;
   height: 28px;
   margin-top: 30%;
   border-radius: 30px;
@@ -26760,8 +26769,8 @@ page-login-1 .form {
 }
 
 page-login-1 .email-form {
-  width: 204px;
-  height: 28,5px;
+  width: 174px;
+  height: 28.5px;
   margin-top: 22px;
   border-radius: 30px;
   margin-top: 40%;
@@ -26771,8 +26780,8 @@ page-login-1 .email-form {
 }
 
 page-login-1 .password-form {
-  width: 204px;
-  height: 28,5px;
+  width: 174px;
+  height: 28.5px;
   margin-top: 22px;
   border-radius: 30px;
   border: solid grey 0.5px;
@@ -27166,6 +27175,14 @@ page-radio-rec-1 .nb-ecoute {
   overflow: hidden;
 }
 
+.like-button-red {
+  display: none;
+}
+
+.like-button-white {
+  display: block;
+}
+
 page-radio-subscribe {
   background-color: white;
 }
@@ -27243,6 +27260,14 @@ page-radio-subscribe .button-rec {
   overflow: hidden;
 }
 
+.like-button-red {
+  display: none;
+}
+
+.like-button-red {
+  display: block;
+}
+
 page-register {
   background-color: white;
   /* Shared */
@@ -27295,8 +27320,8 @@ page-register .form {
 }
 
 page-register .id-form {
-  width: 204px;
-  height: 28,5px;
+  width: 174px;
+  height: 28.5px;
   margin-top: 40%;
   border-radius: 30px;
   border: solid grey 0.5px;
@@ -27305,8 +27330,8 @@ page-register .id-form {
 }
 
 page-register .email-form {
-  width: 204px;
-  height: 28,5px;
+  width: 174px;
+  height: 28.5px;
   margin-top: 22px;
   border-radius: 30px;
   border: solid grey 0.5px;
@@ -27315,8 +27340,8 @@ page-register .email-form {
 }
 
 page-register .password-form {
-  width: 204px;
-  height: 28,5px;
+  width: 174px;
+  height: 28.5px;
   margin-top: 22px;
   border-radius: 30px;
   border: solid grey 0.5px;
@@ -27351,7 +27376,7 @@ page-register .logo-container {
 }
 
 page-register .id-subscribe {
-  width: 204px;
+  width: 174px;
   height: 28px;
   margin-top: 30%;
   border-radius: 30px;

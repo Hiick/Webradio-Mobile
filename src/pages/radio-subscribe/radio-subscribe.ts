@@ -22,4 +22,8 @@ export class RadioSubscribePage {
     console.log('ionViewDidLoad RadioSubscribePage');
   }
 
+  public addFavoritee() {
+    document.getElementById("like-button-red").style.display = "block";
+    document.getElementById("like-button-white").style.display = "none";
+  }
 }

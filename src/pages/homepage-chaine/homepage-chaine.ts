@@ -35,7 +35,7 @@ export class HomepageChainePage {
     this.navCtrl.setRoot(Chaine_9Page)
   }
   public goToHomePageRadio1() {
-    this.navCtrl.setRoot(RadioRec_1Page)
+    this.navCtrl.setRoot(HomepageRadioPage)
   }
 
   public goToNotification() {
@@ -44,5 +44,9 @@ export class HomepageChainePage {
 
   public goToAccount() {
     this.navCtrl.setRoot(AccountSettingsPage)
+  }
+
+  public goToRadio() {
+    this.navCtrl.setRoot(RadioRec_1Page)
   }
 }

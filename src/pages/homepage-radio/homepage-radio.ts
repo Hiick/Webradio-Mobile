@@ -43,7 +43,7 @@ export class HomepageRadioPage {
   }
 
   public goToHomePageRadio() {
-    this.navCtrl.setRoot(RadioRec_1Page)
+    this.navCtrl.setRoot(HomepageRadioPage)
   }
 
   public goToNotification() {
@@ -52,5 +52,9 @@ export class HomepageRadioPage {
 
   public Notification() {
     this.navCtrl.setRoot(NotificationPage)
+  }
+
+  public goToRadio() {
+    this.navCtrl.setRoot(RadioRec_1Page)
   }
 }
