@@ -41,13 +41,15 @@
           <form class="form">
 
               <div>
-                  <input placeholder="Email" type="text" class="email-form">
+                  <input placeholder="Email" type="text" class="email-form" name="email"
+                  [(ngModel)]="data.email" required>
               </div>
       
               <div>
                   <p class="id-infos">Indiquez votre adresse email pour réinitialiser votre mot de passe</p>
               </div>
-              <button type="submit" (click)="alertMail()" class="id-subscribe">Réinitialiser</button>
+              <button type="submit" (click)="alertMail()"
+              (click)="goForgetPassword()" class="id-subscribe">Réinitialiser</button>
           </form>
           <div class="fb-login-button" data-width="" data-size="large" data-button-type="login_with" data-auto-logout-link="false" data-use-continue-as="false"></div>
       </div>

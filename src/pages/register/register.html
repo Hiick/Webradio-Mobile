@@ -10,22 +10,27 @@
     </div> 
     <form class="form">
         <div>
-            <input placeholder="Nom d'utilisateur" type="text" class="id-form">
+            <input placeholder="Nom d'utilisateur" type="text" class="id-form" name="username" value=""
+            [(ngModel)]="data.username" required>
         </div>
 
         <div>
-            <input placeholder="Email" type="text" class="email-form">
+            <input placeholder="Email" type="email" class="email-form" id="email" value=""
+            name="email"
+            [(ngModel)]="data.email" required>
         </div>
 
         <div>
-            <input placeholder="Mot de passe" type="text" class="password-form">
+            <input placeholder="Mot de passe" type="password" class="password-form" id="password" value=""
+            name="password"
+            [(ngModel)]="data.password" required>
         </div>
         
-        <button type="submit" class="id-subscribe">Inscription</button>
-        <!-- FB-->
+        <button type="submit" class="id-subscribe" (click)="goRegister()">Inscription</button>
+        <!-- FB
         <button shape="round" (click)="requestFacebook()" *ngIf="loggedIn===false" mat-flat-button color="primary">Sign In With Facebook</button>
         <button shape="round" (click)="signOut()" *ngIf="loggedIn===true" mat-flat-button color="primary">Sign Out From Facebook</button>
-        <!-- ENDFB -->
+         ENDFB -->
     </form>
     <div>
         <p class="already-account">Déjà un compte ?<a class="already-account-link" (click)="goToLogin()"> Connectez-vous</a></p>

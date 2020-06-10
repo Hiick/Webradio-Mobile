@@ -9,6 +9,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(12);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__register__ = __webpack_require__(67);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__angular_common_http__ = __webpack_require__(68);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -24,10 +25,18 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 //FB
 //FB
 //import { AuthService, FacebookLoginProvider, SocialUser } from 'angularx-social-login';
+
 //ENDFB
 //ENDFB
 var RegisterPageModule = /** @class */ (function () {
-    function RegisterPageModule() {
+    function RegisterPageModule(NavController, HttpClient) {
+        this.NavController = NavController;
+        this.HttpClient = HttpClient;
+        this.registerRequest = this.HttpClient.get('https://webradio-stream.herokuapp.com/auth/register');
+        this.registerRequest
+            .subscribe(function (data) {
+            console.log('my data: ', data);
+        });
     }
     RegisterPageModule = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["I" /* NgModule */])({
@@ -38,7 +47,7 @@ var RegisterPageModule = /** @class */ (function () {
                 __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* IonicPageModule */].forChild(__WEBPACK_IMPORTED_MODULE_2__register__["a" /* RegisterPage */]),
             ],
         }),
-        __metadata("design:paramtypes", [])
+        __metadata("design:paramtypes", [Object, __WEBPACK_IMPORTED_MODULE_3__angular_common_http__["a" /* HttpClient */]])
     ], RegisterPageModule);
     return RegisterPageModule;
 }());

@@ -21,14 +21,18 @@
           <form class="form">
   
               <div>
-                  <input placeholder="Email" type="text" class="email-form">
+                  <input placeholder="Email" type="email" class="email-form" value="" 
+                  name="email"
+                  [(ngModel)]="data.email" required>
               </div>
   
               <div>
-                  <input placeholder="Mot de passe" type="text" class="password-form">
+                  <input placeholder="Mot de passe" type="password" class="password-form"
+                  name="password"
+                  value="" [(ngModel)]="data.password" required>
               </div>
   
-              <button type="submit" class="id-subscribe" (click)="goToHomePage()">Connexion</button>
+              <button type="submit" class="id-subscribe" (click)="goLogin()">Connexion</button>
   
               <!--<button type="button" (click)="requestFacebook()">facebook</button>-->
           </form>

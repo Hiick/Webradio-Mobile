@@ -1,4 +1,4 @@
-import { HomepageRadioPage } from './../homepage-radio/homepage-radio';
+import { HomepageRadioPage } from '../homepage-radio/homepage-radio';
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import { LoginPage } from '../login/login';
