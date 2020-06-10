@@ -1,8 +1,8 @@
 {
-  "name": "myApp",
+  "name": "Webradio",
   "integrations": {
     "cordova": {}
   },
   "type": "ionic-angular",
-  "id": "1fc4c750"
+  "id": "f9d8bad3"
 }
