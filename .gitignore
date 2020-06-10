@@ -1,14 +1,9 @@
 # See https://help.github.com/ignore-files/ for more about ignoring files.
 # dependencies
-<<<<<<< HEAD
 */node_modules
 */vendor
+/www
 .idea/
-=======
-*/vendor
-.idea/
-node_modules/
->>>>>>> f550f729f10ee99323e6210f098db9a3c6e0dd01
 ApplicationMobile/client/.idea/
 ApplicationMobile/server/.idea/
 ApplicationMobile/client/node_modules/
@@ -29,8 +24,4 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 # php version
-<<<<<<< HEAD
 /.php-version
-=======
-/.php-version
->>>>>>> f550f729f10ee99323e6210f098db9a3c6e0dd01

@@ -1,11 +1,14 @@
 import { HomepageRadioPage } from './../homepage-radio/homepage-radio';
 import { Component } from '@angular/core';
-import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { IonicPage, NavController, NavParams, ToastController } from 'ionic-angular';
 //alert 
 import { AlertController } from 'ionic-angular';
 import { RegisterPage } from '../register/register';
 import { LoginPage } from '../login/login';
 import { NotificationPage } from '../notification/notification';
+import { HttpClient } from '@angular/common/http';
+import { Observable } from 'rxjs/Observable';
+
 /**
  * Generated class for the Login_1Page page.
  *
@@ -20,8 +23,23 @@ import { NotificationPage } from '../notification/notification';
 })
 export class Login_1Page {
 
-  constructor(public navCtrl: NavController, public navParams: NavParams, private alertCtrl: AlertController) {
+  constructor(public http: HttpClient, private toast: ToastController, public navCtrl: NavController, public navParams: NavParams, private alertCtrl: AlertController) {
   }
+
+  forgetPasswordRequest: Observable<any>;
+
+  data = {
+    email : ''
+  }
+
+  async toastControl (msg: string) {
+    const daToast = await this.toast.create({
+        message: msg,
+        duration: 5000,
+        position: 'bottom'
+    });
+    daToast.present();
+}
 
   ionViewDidLoad() {
     console.log('ionViewDidLoad Login_1Page');
@@ -54,5 +72,32 @@ export class Login_1Page {
 
   public goToNotification() {
     this.navCtrl.setRoot(NotificationPage)
+  }
+
+  public goForgetPassword(http: HttpClient) {
+    if (this.data.email =="") {
+      console.log("Les champs doivent obligatoirement être remplies !")
+      this.toastControl("Les champs doivent obligatoirement être remplies !")
+    }
+    console.log(this.data);
+    this.forgetPasswordRequest = this.http
+    .post('https://webradio-stream.herokuapp.com/auth/forgot/password', 
+    this.data
+    //{ "headers": {"Content-Type": "application/x-www-form-urlencoded"}}
+    );
+
+    this.forgetPasswordRequest
+    .subscribe(data => {
+      console.log('my data: ', data); 
+      
+      //this.toastControl("Un mail a bien été envoyé !")
+      this.goToLogin()
+    }, error => {
+      if(error)
+      {
+        //console.log(error.error.mess)
+        this.toastControl("error")
+      }
+    })
   }
 }
