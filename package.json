@@ -22,13 +22,17 @@
     "@angular/platform-browser": "5.2.11",
     "@angular/platform-browser-dynamic": "5.2.11",
     "@angular/router": "^9.1.6",
+    "@ionic-native/audio-management": "^5.26.0",
     "@ionic-native/core": "4.20.0",
+    "@ionic-native/native-audio": "^5.26.0",
     "@ionic-native/splash-screen": "4.20.0",
     "@ionic-native/status-bar": "4.20.0",
     "@ionic/storage": "2.2.0",
     "angularx-social-login": "^2.2.1",
+    "clovelced-plugin-audiomanagement": "^1.0.2",
     "connect": "^3.7.0",
     "cordova-ios": "^5.1.1",
+    "cordova-plugin-nativeaudio": "^3.0.9",
     "http-proxy": "^1.18.1",
     "https": "^1.0.0",
     "ionic-angular": "3.9.9",
@@ -57,7 +61,9 @@
       "cordova-plugin-device": {},
       "cordova-plugin-splashscreen": {},
       "cordova-plugin-ionic-webview": {},
-      "cordova-plugin-ionic-keyboard": {}
+      "cordova-plugin-ionic-keyboard": {},
+      "cordova-plugin-nativeaudio": {},
+      "clovelced-plugin-audiomanagement": {}
     },
     "platforms": [
       "ios"
