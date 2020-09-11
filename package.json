@@ -29,7 +29,7 @@
     "angularx-social-login": "^2.2.1",
     "connect": "^3.7.0",
     "cordova-ios": "^5.1.1",
-    "http-proxy": "^1.18.0",
+    "http-proxy": "^1.18.1",
     "https": "^1.0.0",
     "ionic-angular": "3.9.9",
     "ionicons": "3.0.0",
